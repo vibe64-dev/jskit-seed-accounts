@@ -1,0 +1,17 @@
+{
+  "schema": "vibe64.seed",
+  "schemaVersion": 1,
+  "id": "jskit-accounts",
+  "name": "Accounts",
+  "tagline": "A private space for every person",
+  "description": "People can sign up and sign in, then use their own private area. Choose this when the app needs accounts but does not need persistent application data yet.",
+  "kind": "foundation",
+  "repository": "vibe64-dev/jskit-seed-accounts",
+  "basedOn": null,
+  "icon": "account",
+  "capabilities": {
+    "authentication": "local-file",
+    "database": "none",
+    "workspaces": false
+  }
+}

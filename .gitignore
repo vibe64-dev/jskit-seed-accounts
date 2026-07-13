@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+test-results/
+.jskit/verification/
+.jskit/cache/
+.env
+.env.*
+!.env.example
+
+
+.jskit/auth/

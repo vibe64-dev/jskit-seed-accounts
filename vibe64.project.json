@@ -1,7 +1,7 @@
 {
   "schema": "vibe64.project",
   "schemaVersion": 1,
-  "projectType": "",
+  "projectType": "jskit",
   "config": {
     "github_pr_merge_method": "squash",
     "jskit_auth_local_backend": "file",

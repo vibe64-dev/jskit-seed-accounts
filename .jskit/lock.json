@@ -1,0 +1,510 @@
+{
+  "lockVersion": 1,
+  "installedPackages": {
+    "@local/main": {
+      "packageId": "@local/main",
+      "version": "0.1.0",
+      "source": {
+        "type": "local-package",
+        "packagePath": "packages/main",
+        "descriptorPath": "packages/main/package.descriptor.mjs"
+      },
+      "managed": {
+        "packageJson": {
+          "dependencies": {
+            "@local/main": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "file:packages/main"
+            }
+          },
+          "devDependencies": {},
+          "scripts": {}
+        },
+        "text": {},
+        "files": []
+      },
+      "options": {},
+      "installedAt": "1970-01-01T00:00:00.000Z"
+    },
+    "@jskit-ai/shell-web": {
+      "packageId": "@jskit-ai/shell-web",
+      "version": "0.1.113",
+      "source": {
+        "type": "catalog",
+        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/shell-web"
+      },
+      "managed": {
+        "packageJson": {
+          "dependencies": {},
+          "devDependencies": {},
+          "scripts": {}
+        },
+        "text": {},
+        "source": {
+          "packages/main/src/client/providers/MainClientProvider.js::shell-web-main-client-provider-menu-link-item-import": {
+            "file": "packages/main/src/client/providers/MainClientProvider.js",
+            "op": "ensure-import",
+            "id": "shell-web-main-client-provider-menu-link-item-import",
+            "reason": "Bind app-owned shell menu link-item scaffold into local main client provider imports.",
+            "category": "shell-web"
+          },
+          "packages/main/src/client/providers/MainClientProvider.js::shell-web-main-client-provider-surface-aware-menu-link-item-import": {
+            "file": "packages/main/src/client/providers/MainClientProvider.js",
+            "op": "ensure-import",
+            "id": "shell-web-main-client-provider-surface-aware-menu-link-item-import",
+            "reason": "Bind app-owned shell surface-aware menu link-item scaffold into local main client provider imports.",
+            "category": "shell-web"
+          },
+          "packages/main/src/client/providers/MainClientProvider.js::shell-web-main-client-provider-tab-link-item-import": {
+            "file": "packages/main/src/client/providers/MainClientProvider.js",
+            "op": "ensure-import",
+            "id": "shell-web-main-client-provider-tab-link-item-import",
+            "reason": "Bind app-owned shell tab link-item scaffold into local main client provider imports.",
+            "category": "shell-web"
+          },
+          "packages/main/src/client/providers/MainClientProvider.js::shell-web-main-client-provider-menu-link-item-register": {
+            "file": "packages/main/src/client/providers/MainClientProvider.js",
+            "op": "ensure-call",
+            "id": "shell-web-main-client-provider-menu-link-item-register",
+            "reason": "Bind app-owned shell menu link-item token into local main client provider registry.",
+            "category": "shell-web"
+          },
+          "packages/main/src/client/providers/MainClientProvider.js::shell-web-main-client-provider-surface-aware-menu-link-item-register": {
+            "file": "packages/main/src/client/providers/MainClientProvider.js",
+            "op": "ensure-call",
+            "id": "shell-web-main-client-provider-surface-aware-menu-link-item-register",
+            "reason": "Bind app-owned shell surface-aware menu link-item token into local main client provider registry.",
+            "category": "shell-web"
+          },
+          "packages/main/src/client/providers/MainClientProvider.js::shell-web-main-client-provider-tab-link-item-register": {
+            "file": "packages/main/src/client/providers/MainClientProvider.js",
+            "op": "ensure-call",
+            "id": "shell-web-main-client-provider-tab-link-item-register",
+            "reason": "Bind app-owned shell tab link-item token into local main client provider registry.",
+            "category": "shell-web"
+          }
+        },
+        "vite": {},
+        "files": [
+          {
+            "path": "src/App.vue",
+            "hash": "e8ad49df01c665c6453d783ea3b67deda05473870fd29faa039e9a38e28a7f2c",
+            "hadPrevious": true,
+            "previousContentBase64": "PHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgUm91dGVyVmlldyB9IGZyb20gInZ1ZS1yb3V0ZXIiOwppbXBvcnQgU2hlbGxFcnJvckhvc3QgZnJvbSAiQGpza2l0LWFpL3NoZWxsLXdlYi9jbGllbnQvY29tcG9uZW50cy9TaGVsbEVycm9ySG9zdCI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDx2LWFwcD4KICAgIDxSb3V0ZXJWaWV3IC8+CiAgICA8U2hlbGxFcnJvckhvc3QgLz4KICA8L3YtYXBwPgo8L3RlbXBsYXRlPgo=",
+            "preserveOnRemove": false,
+            "reason": "Install full-width shell app root with shell-web error host and edge-to-edge layout.",
+            "category": "shell-web",
+            "id": "shell-web-app-root"
+          },
+          {
+            "path": "src/components/ShellLayout.vue",
+            "hash": "0c2c3b5439890e0822dab32b0a740927b7612df1510efe2254cb20d90fd7312c",
+            "hadPrevious": true,
+            "previousContentBase64": "PHNjcmlwdD4KaW1wb3J0IHsgaCB9IGZyb20gInZ1ZSI7CmltcG9ydCBQYWNrYWdlU2hlbGxMYXlvdXQgZnJvbSAiQGpza2l0LWFpL3NoZWxsLXdlYi9jbGllbnQvY29tcG9uZW50cy9TaGVsbExheW91dCI7CgpleHBvcnQgZGVmYXVsdCB7CiAgbmFtZTogIlNoZWxsTGF5b3V0IiwKICBpbmhlcml0QXR0cnM6IGZhbHNlLAogIHNldHVwKF8sIHsgYXR0cnMsIHNsb3RzIH0pIHsKICAgIHJldHVybiAoKSA9PiBoKFBhY2thZ2VTaGVsbExheW91dCwgYXR0cnMsIHNsb3RzKTsKICB9Cn07Cjwvc2NyaXB0Pgo=",
+            "preserveOnRemove": false,
+            "reason": "Install app-owned shell layout component so apps can customize structure and slots.",
+            "category": "shell-web",
+            "id": "shell-web-component-shell-layout"
+          },
+          {
+            "path": "src/components/menus/MenuLinkItem.vue",
+            "hash": "91460689ede313da18352c5fd67f99f198433198906b276586c7f60742f042a1",
+            "hadPrevious": true,
+            "previousContentBase64": "PHNjcmlwdCBzZXR1cD4KaW1wb3J0IFNoZWxsTWVudUxpbmtJdGVtIGZyb20gIkBqc2tpdC1haS9zaGVsbC13ZWIvY2xpZW50L2NvbXBvbmVudHMvU2hlbGxNZW51TGlua0l0ZW0iOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wcyh7CiAgbGFiZWw6IHsKICAgIHR5cGU6IFN0cmluZywKICAgIGRlZmF1bHQ6ICIiCiAgfSwKICB0bzogewogICAgdHlwZTogU3RyaW5nLAogICAgZGVmYXVsdDogIiIKICB9LAogIGljb246IHsKICAgIHR5cGU6IFN0cmluZywKICAgIGRlZmF1bHQ6ICIiCiAgfSwKICBkaXNhYmxlZDogewogICAgdHlwZTogQm9vbGVhbiwKICAgIGRlZmF1bHQ6IGZhbHNlCiAgfSwKICBleGFjdDogewogICAgdHlwZTogQm9vbGVhbiwKICAgIGRlZmF1bHQ6IGZhbHNlCiAgfQp9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFNoZWxsTWVudUxpbmtJdGVtIHYtYmluZD0icHJvcHMiIC8+CjwvdGVtcGxhdGU+Cg==",
+            "preserveOnRemove": false,
+            "reason": "Install app-owned shell menu link-item scaffold for local placement customization.",
+            "category": "shell-web",
+            "id": "shell-web-component-menu-link-item"
+          },
+          {
+            "path": "src/components/menus/SurfaceAwareMenuLinkItem.vue",
+            "hash": "63ad9112bf096974a6b268e2c719e9d5522fde179350f56dc640f8902c0e914e",
+            "hadPrevious": true,
+            "previousContentBase64": "PHNjcmlwdCBzZXR1cD4KaW1wb3J0IFNoZWxsU3VyZmFjZUF3YXJlTWVudUxpbmtJdGVtIGZyb20gIkBqc2tpdC1haS9zaGVsbC13ZWIvY2xpZW50L2NvbXBvbmVudHMvU2hlbGxTdXJmYWNlQXdhcmVNZW51TGlua0l0ZW0iOwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wcyh7CiAgbGFiZWw6IHsKICAgIHR5cGU6IFN0cmluZywKICAgIGRlZmF1bHQ6ICIiCiAgfSwKICB0bzogewogICAgdHlwZTogU3RyaW5nLAogICAgZGVmYXVsdDogIiIKICB9LAogIGljb246IHsKICAgIHR5cGU6IFN0cmluZywKICAgIGRlZmF1bHQ6ICIiCiAgfSwKICBzdXJmYWNlOiB7CiAgICB0eXBlOiBTdHJpbmcsCiAgICBkZWZhdWx0OiAiIgogIH0sCiAgc2NvcGVkU3VmZml4OiB7CiAgICB0eXBlOiBTdHJpbmcsCiAgICBkZWZhdWx0OiAiLyIKICB9LAogIHVuc2NvcGVkU3VmZml4OiB7CiAgICB0eXBlOiBTdHJpbmcsCiAgICBkZWZhdWx0OiAiLyIKICB9LAogIGRpc2FibGVkOiB7CiAgICB0eXBlOiBCb29sZWFuLAogICAgZGVmYXVsdDogZmFsc2UKICB9LAogIGV4YWN0OiB7CiAgICB0eXBlOiBCb29sZWFuLAogICAgZGVmYXVsdDogZmFsc2UKICB9Cn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8U2hlbGxTdXJmYWNlQXdhcmVNZW51TGlua0l0ZW0gdi1iaW5kPSJwcm9wcyIgLz4KPC90ZW1wbGF0ZT4K",
+            "preserveOnRemove": false,
+            "reason": "Install app-owned surface-aware shell menu link-item scaffold for local placement customization.",
+            "category": "shell-web",
+            "id": "shell-web-component-surface-aware-menu-link-item"
+          },
+          {
+            "path": "src/components/menus/TabLinkItem.vue",
+            "hash": "6fc8405ca0e19516ce762e392733fd39e7c2af85d8483193b4ee52caac76f1f4",
+            "hadPrevious": true,
+            "previousContentBase64": "PHNjcmlwdCBzZXR1cD4KaW1wb3J0IFNoZWxsVGFiTGlua0l0ZW0gZnJvbSAiQGpza2l0LWFpL3NoZWxsLXdlYi9jbGllbnQvY29tcG9uZW50cy9TaGVsbFRhYkxpbmtJdGVtIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHMoewogIGxhYmVsOiB7CiAgICB0eXBlOiBTdHJpbmcsCiAgICBkZWZhdWx0OiAiIgogIH0sCiAgdG86IHsKICAgIHR5cGU6IFN0cmluZywKICAgIGRlZmF1bHQ6ICIiCiAgfSwKICBpY29uOiB7CiAgICB0eXBlOiBTdHJpbmcsCiAgICBkZWZhdWx0OiAiIgogIH0sCiAgc3VyZmFjZTogewogICAgdHlwZTogU3RyaW5nLAogICAgZGVmYXVsdDogIiIKICB9LAogIHNjb3BlZFN1ZmZpeDogewogICAgdHlwZTogU3RyaW5nLAogICAgZGVmYXVsdDogIi8iCiAgfSwKICB1bnNjb3BlZFN1ZmZpeDogewogICAgdHlwZTogU3RyaW5nLAogICAgZGVmYXVsdDogIi8iCiAgfSwKICBkaXNhYmxlZDogewogICAgdHlwZTogQm9vbGVhbiwKICAgIGRlZmF1bHQ6IGZhbHNlCiAgfSwKICBleGFjdDogewogICAgdHlwZTogQm9vbGVhbiwKICAgIGRlZmF1bHQ6IGZhbHNlCiAgfQp9KTsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFNoZWxsVGFiTGlua0l0ZW0gdi1iaW5kPSJwcm9wcyIgLz4KPC90ZW1wbGF0ZT4K",
+            "preserveOnRemove": false,
+            "reason": "Install app-owned shell tab link-item scaffold for local placement customization.",
+            "category": "shell-web",
+            "id": "shell-web-component-tab-link-item"
+          },
+          {
+            "path": "src/error.js",
+            "hash": "dd7e2f4e32b83d1227135a0f224bb2c46854fe7fd9714c7cc56cf94f2f1eb55b",
+            "hadPrevious": true,
+            "previousContentBase64": "aW1wb3J0IHsgY3JlYXRlRGVmYXVsdEVycm9yUG9saWN5IH0gZnJvbSAiQGpza2l0LWFpL3NoZWxsLXdlYi9jbGllbnQvZXJyb3IiOwoKLyoqCiAqIEFwcC1vd25lZCBlcnJvciBoYW5kbGluZyBjb250cmFjdC4KICogLSBpbnRlbnQgY2hvb3NlcyBkZWZhdWx0IHByZXNlbnRhdGlvbjogcmVzb3VyY2UtbG9hZCwgYWN0aW9uLWZlZWRiYWNrLCBhcHAtcmVjb3ZlcmFibGUsIGJsb2NraW5nLgogKiAtIHBvbGljeShldmVudCwgY3R4KTogZGVjaWRlIGNoYW5uZWwgKyBwcmVzZW50ZXIgKyBtZXNzYWdlLgogKiAtIGRlZmF1bHRQcmVzZW50ZXJJZDogdXNlZCB3aGVuIHBvbGljeSBkb2VzIG5vdCBzZXQgcHJlc2VudGVySWQuCiAqIC0gcHJlc2VudGVyczogb3B0aW9uYWwgY3VzdG9tIHByZXNlbnRlcnMgcmVnaXN0ZXJlZCBhdCBib290LgogKi8KZXhwb3J0IGRlZmF1bHQgT2JqZWN0LmZyZWV6ZSh7CiAgZGVmYXVsdFByZXNlbnRlcklkOiAibWF0ZXJpYWwuc25hY2tiYXIiLAogIHBvbGljeTogY3JlYXRlRGVmYXVsdEVycm9yUG9saWN5KHsKICAgIHJlc291cmNlTG9hZENoYW5uZWw6ICJzaWxlbnQiLAogICAgYWN0aW9uRmVlZGJhY2tDaGFubmVsOiAic25hY2tiYXIiLAogICAgYXBwUmVjb3ZlcmFibGVDaGFubmVsOiAiYmFubmVyIiwKICAgIGJsb2NraW5nQ2hhbm5lbDogImRpYWxvZyIKICB9KSwKICBwcmVzZW50ZXJzOiBbXQp9KTsK",
+            "preserveOnRemove": false,
+            "reason": "Install app-owned error runtime policy and presenter config scaffold.",
+            "category": "shell-web",
+            "id": "shell-web-error-config"
+          },
+          {
+            "path": "src/placement.js",
+            "hash": "39ef1011cc96c94e8b1778a199b2222bed9887b066331918633524515ca8b909",
+            "hadPrevious": true,
+            "previousContentBase64": "aW1wb3J0IHsgY3JlYXRlUGxhY2VtZW50UmVnaXN0cnkgfSBmcm9tICJAanNraXQtYWkvc2hlbGwtd2ViL2NsaWVudC9wbGFjZW1lbnQiOwoKY29uc3QgcmVnaXN0cnkgPSBjcmVhdGVQbGFjZW1lbnRSZWdpc3RyeSgpOwpjb25zdCB7IGFkZFBsYWNlbWVudCB9ID0gcmVnaXN0cnk7CgpleHBvcnQgeyBhZGRQbGFjZW1lbnQgfTsKCi8vIEtlZXAgdGhlIGRlZmF1bHQgZXhwb3J0IG5lYXIgdGhlIHRvcCBzbyBtb2R1bGUgaW5zdGFsbGVycyBjYW4gYXBwZW5kIGFkZFBsYWNlbWVudCguLi4pCi8vIGJsb2NrcyBhdCB0aGUgYm90dG9tIG9mIHRoaXMgZmlsZSB3aXRob3V0IGNoYW5naW5nIHRoZSBleHBvcnQgc2VjdGlvbi4KZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gZ2V0UGxhY2VtZW50cygpIHsKICByZXR1cm4gcmVnaXN0cnkuYnVpbGQoKTsKfQoKYWRkUGxhY2VtZW50KHsKICBpZDogInNoZWxsLXdlYi5ob21lLm1lbnUuaG9tZSIsCiAgdGFyZ2V0OiAic2hlbGwucHJpbWFyeS1uYXYiLAogIGtpbmQ6ICJsaW5rIiwKICBzdXJmYWNlczogWyJob21lIl0sCiAgb3JkZXI6IDUwLAogIHByb3BzOiB7CiAgICBsYWJlbDogIkhvbWUiLAogICAgc3VyZmFjZTogImhvbWUiLAogICAgc2NvcGVkU3VmZml4OiAiLyIsCiAgICB1bnNjb3BlZFN1ZmZpeDogIi8iLAogICAgZXhhY3Q6IHRydWUKICB9Cn0pOwoKYWRkUGxhY2VtZW50KHsKICBpZDogInNoZWxsLXdlYi5ob21lLm1lbnUuc2V0dGluZ3MiLAogIHRhcmdldDogInNoZWxsLnByaW1hcnktbmF2IiwKICBraW5kOiAibGluayIsCiAgc3VyZmFjZXM6IFsiaG9tZSJdLAogIG9yZGVyOiAxMDAsCiAgcHJvcHM6IHsKICAgIGxhYmVsOiAiU2V0dGluZ3MiLAogICAgc3VyZmFjZTogImhvbWUiLAogICAgc2NvcGVkU3VmZml4OiAiL3NldHRpbmdzIiwKICAgIHVuc2NvcGVkU3VmZml4OiAiL3NldHRpbmdzIgogIH0KfSk7CgphZGRQbGFjZW1lbnQoewogIGlkOiAic2hlbGwtd2ViLmhvbWUuc2V0dGluZ3MuZ2VuZXJhbCIsCiAgdGFyZ2V0OiAicGFnZS5zZWN0aW9uLW5hdiIsCiAgb3duZXI6ICJob21lLXNldHRpbmdzIiwKICBraW5kOiAibGluayIsCiAgc3VyZmFjZXM6IFsiaG9tZSJdLAogIG9yZGVyOiAxMDAsCiAgcHJvcHM6IHsKICAgIGxhYmVsOiAiR2VuZXJhbCIsCiAgICBzdXJmYWNlOiAiaG9tZSIsCiAgICBzY29wZWRTdWZmaXg6ICIvc2V0dGluZ3MvZ2VuZXJhbCIsCiAgICB1bnNjb3BlZFN1ZmZpeDogIi9zZXR0aW5ncy9nZW5lcmFsIgogIH0KfSk7Cg==",
+            "preserveOnRemove": false,
+            "reason": "Install app-owned placement registry scaffold used by shell-web placement runtime.",
+            "category": "shell-web",
+            "id": "shell-web-placement-registry"
+          },
+          {
+            "path": "src/placementTopology.js",
+            "hash": "3e8a515abc359c61f28061c1c3d3df8b810ddc50b4a0c805c093394cc7693ffd",
+            "hadPrevious": true,
+            "previousContentBase64": "Y29uc3QgcGxhY2VtZW50cyA9IFtdOwoKZnVuY3Rpb24gYWRkUGxhY2VtZW50VG9wb2xvZ3kodmFsdWUgPSB7fSkgewogIHBsYWNlbWVudHMucHVzaCh2YWx1ZSk7Cn0KCmV4cG9ydCB7IGFkZFBsYWNlbWVudFRvcG9sb2d5IH07CmV4cG9ydCBkZWZhdWx0IHsgcGxhY2VtZW50cyB9OwoKY29uc3QgbWVudUxpbmtSZW5kZXJlcnMgPSBPYmplY3QuZnJlZXplKHsKICBsaW5rOiAibG9jYWwubWFpbi51aS5zdXJmYWNlLWF3YXJlLW1lbnUtbGluay1pdGVtIgp9KTsKCmNvbnN0IGJvdHRvbU5hdkxpbmtSZW5kZXJlcnMgPSBPYmplY3QuZnJlZXplKHsKICBsaW5rOiAibG9jYWwubWFpbi51aS50YWItbGluay1pdGVtIgp9KTsKCmFkZFBsYWNlbWVudFRvcG9sb2d5KHsKICBpZDogInNoZWxsLnByaW1hcnktbmF2IiwKICBkZXNjcmlwdGlvbjogIlByaW1hcnkgdG9wLWxldmVsIG5hdmlnYXRpb24gZm9yIHRoZSBjdXJyZW50IHN1cmZhY2UuIiwKICBzdXJmYWNlczogWyIqIl0sCiAgZGVmYXVsdDogdHJ1ZSwKICB2YXJpYW50czogewogICAgY29tcGFjdDogewogICAgICBvdXRsZXQ6ICJzaGVsbC1sYXlvdXQ6cHJpbWFyeS1ib3R0b20tbmF2IiwKICAgICAgcmVuZGVyZXJzOiBib3R0b21OYXZMaW5rUmVuZGVyZXJzCiAgICB9LAogICAgbWVkaXVtOiB7CiAgICAgIG91dGxldDogInNoZWxsLWxheW91dDpwcmltYXJ5LW1lbnUiLAogICAgICByZW5kZXJlcnM6IG1lbnVMaW5rUmVuZGVyZXJzCiAgICB9LAogICAgZXhwYW5kZWQ6IHsKICAgICAgb3V0bGV0OiAic2hlbGwtbGF5b3V0OnByaW1hcnktbWVudSIsCiAgICAgIHJlbmRlcmVyczogbWVudUxpbmtSZW5kZXJlcnMKICAgIH0KICB9Cn0pOwoKYWRkUGxhY2VtZW50VG9wb2xvZ3koewogIGlkOiAic2hlbGwuc2Vjb25kYXJ5LW5hdiIsCiAgZGVzY3JpcHRpb246ICJTZWNvbmRhcnkgbmF2aWdhdGlvbiBmb3IgdGhlIGN1cnJlbnQgc3VyZmFjZS4iLAogIHN1cmZhY2VzOiBbIioiXSwKICB2YXJpYW50czogewogICAgY29tcGFjdDogewogICAgICBvdXRsZXQ6ICJzaGVsbC1sYXlvdXQ6c2Vjb25kYXJ5LW1lbnUiLAogICAgICByZW5kZXJlcnM6IG1lbnVMaW5rUmVuZGVyZXJzCiAgICB9LAogICAgbWVkaXVtOiB7CiAgICAgIG91dGxldDogInNoZWxsLWxheW91dDpzZWNvbmRhcnktbWVudSIsCiAgICAgIHJlbmRlcmVyczogbWVudUxpbmtSZW5kZXJlcnMKICAgIH0sCiAgICBleHBhbmRlZDogewogICAgICBvdXRsZXQ6ICJzaGVsbC1sYXlvdXQ6c2Vjb25kYXJ5LW1lbnUiLAogICAgICByZW5kZXJlcnM6IG1lbnVMaW5rUmVuZGVyZXJzCiAgICB9CiAgfQp9KTsKCmFkZFBsYWNlbWVudFRvcG9sb2d5KHsKICBpZDogInNoZWxsLmlkZW50aXR5IiwKICBkZXNjcmlwdGlvbjogIkN1cnJlbnQgc3VyZmFjZSBpZGVudGl0eSBhbmQgc3dpdGNoZXIgY29udHJvbHMuIiwKICBzdXJmYWNlczogWyIqIl0sCiAgdmFyaWFudHM6IHsKICAgIGNvbXBhY3Q6IHsKICAgICAgb3V0bGV0OiAic2hlbGwtbGF5b3V0OnRvcC1sZWZ0IgogICAgfSwKICAgIG1lZGl1bTogewogICAgICBvdXRsZXQ6ICJzaGVsbC1sYXlvdXQ6dG9wLWxlZnQiCiAgICB9LAogICAgZXhwYW5kZWQ6IHsKICAgICAgb3V0bGV0OiAic2hlbGwtbGF5b3V0OnRvcC1sZWZ0IgogICAgfQogIH0KfSk7CgphZGRQbGFjZW1lbnRUb3BvbG9neSh7CiAgaWQ6ICJzaGVsbC5zdGF0dXMiLAogIGRlc2NyaXB0aW9uOiAiU3VyZmFjZSBzdGF0dXMsIGNvbm5lY3Rpb24sIGFuZCB1dGlsaXR5IGluZGljYXRvcnMuIiwKICBzdXJmYWNlczogWyIqIl0sCiAgdmFyaWFudHM6IHsKICAgIGNvbXBhY3Q6IHsKICAgICAgb3V0bGV0OiAic2hlbGwtbGF5b3V0OnRvcC1yaWdodCIKICAgIH0sCiAgICBtZWRpdW06IHsKICAgICAgb3V0bGV0OiAic2hlbGwtbGF5b3V0OnRvcC1yaWdodCIKICAgIH0sCiAgICBleHBhbmRlZDogewogICAgICBvdXRsZXQ6ICJzaGVsbC1sYXlvdXQ6dG9wLXJpZ2h0IgogICAgfQogIH0KfSk7CgphZGRQbGFjZW1lbnRUb3BvbG9neSh7CiAgaWQ6ICJzaGVsbC5nbG9iYWwtYWN0aW9ucyIsCiAgZGVzY3JpcHRpb246ICJHbG9iYWwgc3VyZmFjZSBhY3Rpb25zIHRoYXQgc2hvdWxkIHN0YXkgb3V0c2lkZSBwcmltYXJ5IG5hdmlnYXRpb24uIiwKICBzdXJmYWNlczogWyIqIl0sCiAgdmFyaWFudHM6IHsKICAgIGNvbXBhY3Q6IHsKICAgICAgb3V0bGV0OiAic2hlbGwtbGF5b3V0OnRvcC1yaWdodCIsCiAgICAgIHJlbmRlcmVyczogbWVudUxpbmtSZW5kZXJlcnMKICAgIH0sCiAgICBtZWRpdW06IHsKICAgICAgb3V0bGV0OiAic2hlbGwtbGF5b3V0OnRvcC1yaWdodCIsCiAgICAgIHJlbmRlcmVyczogbWVudUxpbmtSZW5kZXJlcnMKICAgIH0sCiAgICBleHBhbmRlZDogewogICAgICBvdXRsZXQ6ICJzaGVsbC1sYXlvdXQ6dG9wLXJpZ2h0IiwKICAgICAgcmVuZGVyZXJzOiBtZW51TGlua1JlbmRlcmVycwogICAgfQogIH0KfSk7CgphZGRQbGFjZW1lbnRUb3BvbG9neSh7CiAgaWQ6ICJwYWdlLnN1cHBvcnRpbmctY29udGVudCIsCiAgZGVzY3JpcHRpb246ICJTdXBwb3J0aW5nIHBhZ2UgY29udGVudCB0aGF0IG9wZW5zIGFzIGEgYm90dG9tIHNoZWV0IG9uIGNvbXBhY3QgbGF5b3V0cyBhbmQgYSBzaWRlIHBhbmVsIG9uIHdpZGVyIGxheW91dHMuIiwKICBzdXJmYWNlczogWyIqIl0sCiAgdmFyaWFudHM6IHsKICAgIGNvbXBhY3Q6IHsKICAgICAgb3V0bGV0OiAic2hlbGwtbGF5b3V0OnN1cHBvcnRpbmctYm90dG9tLXNoZWV0IgogICAgfSwKICAgIG1lZGl1bTogewogICAgICBvdXRsZXQ6ICJzaGVsbC1sYXlvdXQ6c3VwcG9ydGluZy1zaWRlLXBhbmVsIgogICAgfSwKICAgIGV4cGFuZGVkOiB7CiAgICAgIG91dGxldDogInNoZWxsLWxheW91dDpzdXBwb3J0aW5nLXNpZGUtcGFuZWwiCiAgICB9CiAgfQp9KTsKCmFkZFBsYWNlbWVudFRvcG9sb2d5KHsKICBpZDogInBhZ2Uuc2VjdGlvbi1uYXYiLAogIG93bmVyOiAiaG9tZS1zZXR0aW5ncyIsCiAgZGVzY3JpcHRpb246ICJOYXZpZ2F0aW9uIGJldHdlZW4gY2hpbGQgcGFnZXMgaW4gdGhlIGhvbWUgc2V0dGluZ3Mgc2VjdGlvbi4iLAogIHN1cmZhY2VzOiBbImhvbWUiXSwKICB2YXJpYW50czogewogICAgY29tcGFjdDogewogICAgICBvdXRsZXQ6ICJob21lLXNldHRpbmdzOnByaW1hcnktbWVudSIsCiAgICAgIHJlbmRlcmVyczogbWVudUxpbmtSZW5kZXJlcnMKICAgIH0sCiAgICBtZWRpdW06IHsKICAgICAgb3V0bGV0OiAiaG9tZS1zZXR0aW5nczpwcmltYXJ5LW1lbnUiLAogICAgICByZW5kZXJlcnM6IG1lbnVMaW5rUmVuZGVyZXJzCiAgICB9LAogICAgZXhwYW5kZWQ6IHsKICAgICAgb3V0bGV0OiAiaG9tZS1zZXR0aW5nczpwcmltYXJ5LW1lbnUiLAogICAgICByZW5kZXJlcnM6IG1lbnVMaW5rUmVuZGVyZXJzCiAgICB9CiAgfQp9KTsK",
+            "preserveOnRemove": false,
+            "reason": "Install app-owned semantic placement topology used by shell-web placement runtime.",
+            "category": "shell-web",
+            "id": "shell-web-placement-topology"
+          },
+          {
+            "path": "src/pages/home.vue",
+            "hash": "52e99863be5b81fa9e5813bb10e912b4439446ebdcc5c543e46f223558b355cc",
+            "hadPrevious": true,
+            "previousContentBase64": "PHJvdXRlIGxhbmc9Impzb24iPgp7CiAgIm1ldGEiOiB7CiAgICAianNraXQiOiB7CiAgICAgICJzdXJmYWNlIjogImhvbWUiCiAgICB9CiAgfQp9Cjwvcm91dGU+Cgo8c2NyaXB0IHNldHVwPgppbXBvcnQgU2hlbGxMYXlvdXQgZnJvbSAiQC9jb21wb25lbnRzL1NoZWxsTGF5b3V0LnZ1ZSI7CmltcG9ydCB7IFJvdXRlclZpZXcgfSBmcm9tICJ2dWUtcm91dGVyIjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPFNoZWxsTGF5b3V0IHRpdGxlPSIiIHN1YnRpdGxlPSIiPgogICAgPFJvdXRlclZpZXcgLz4KICA8L1NoZWxsTGF5b3V0Pgo8L3RlbXBsYXRlPgo=",
+            "preserveOnRemove": false,
+            "reason": "Install shell-driven home wrapper page.",
+            "category": "shell-web",
+            "id": "shell-web-page-home-wrapper"
+          },
+          {
+            "path": "src/pages/home/index.vue",
+            "hash": "3aff6e5d0430679bb4314af0920724b987e29ba487d5d93eb2a51aa79275f103",
+            "hadPrevious": true,
+            "previousContentBase64": "PHRlbXBsYXRlPgogIDxzZWN0aW9uIGNsYXNzPSJnZW5lcmF0ZWQtdWktc2NyZWVuIGdlbmVyYXRlZC11aS1zY3JlZW4tLWFwcCBob21lLXN0YXJ0LXNjcmVlbiBkLWZsZXggZmxleC1jb2x1bW4gZ2EtNCI+CiAgICA8aGVhZGVyPgogICAgICA8cCBjbGFzcz0idGV4dC1vdmVybGluZSB0ZXh0LW1lZGl1bS1lbXBoYXNpcyBtYi0xIj5Ib21lPC9wPgogICAgICA8aDEgY2xhc3M9ImhvbWUtc3RhcnQtc2NyZWVuX190aXRsZSI+SG9tZSBiYXNlPC9oMT4KICAgICAgPHAgY2xhc3M9InRleHQtYm9keS0yIHRleHQtbWVkaXVtLWVtcGhhc2lzIG1iLTAiPgogICAgICAgIFRoZSBhcHAgcnVudGltZSBpcyBvbmxpbmUgYW5kIHJlYWR5IGZvciB0aGUgZmlyc3QgcmVhbCB3b3JrZmxvdy4KICAgICAgPC9wPgogICAgPC9oZWFkZXI+CgogICAgPHYtc2hlZXQgcm91bmRlZD0ibGciIGJvcmRlciBjbGFzcz0iaG9tZS1zdGFydC1zY3JlZW5fX3BhbmVsIj4KICAgICAgPGgyIGNsYXNzPSJ0ZXh0LWg2IG1iLTIiPk5vIGFjdGl2aXR5IHlldDwvaDI+CiAgICAgIDxwIGNsYXNzPSJ0ZXh0LWJvZHktMiB0ZXh0LW1lZGl1bS1lbXBoYXNpcyBtYi0wIj4KICAgICAgICBSZWNlbnQgd29yaywgc2F2ZWQgcmVjb3JkcywgYW5kIG5leHQgYWN0aW9ucyB3aWxsIGFwcGVhciBoZXJlIG9uY2UgdGhpcyBhcHAgaGFzIGRhdGEuCiAgICAgIDwvcD4KICAgIDwvdi1zaGVldD4KICA8L3NlY3Rpb24+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkPgouZ2VuZXJhdGVkLXVpLXNjcmVlbiB7CiAgLS1nZW5lcmF0ZWQtdWktc2NyZWVuLXRpdGxlLXNpemU6IGNsYW1wKDEuNXJlbSwgM3Z3LCAyLjVyZW0pOwogIC0tZ2VuZXJhdGVkLXVpLXNjcmVlbi1wYW5lbC1wYWRkaW5nOiAxcmVtOwp9CgouaG9tZS1zdGFydC1zY3JlZW4gewogIG1hcmdpbi1pbmxpbmU6IGF1dG87CiAgbWF4LXdpZHRoOiA0OHJlbTsKfQoKLmhvbWUtc3RhcnQtc2NyZWVuX190aXRsZSB7CiAgZm9udC1zaXplOiB2YXIoLS1nZW5lcmF0ZWQtdWktc2NyZWVuLXRpdGxlLXNpemUpOwogIGZvbnQtd2VpZ2h0OiA3MDA7CiAgbGV0dGVyLXNwYWNpbmc6IC0wLjAzZW07CiAgbGluZS1oZWlnaHQ6IDEuMDg7CiAgbWFyZ2luOiAwIDAgMC40NXJlbTsKfQoKLmhvbWUtc3RhcnQtc2NyZWVuX19wYW5lbCB7CiAgcGFkZGluZzogdmFyKC0tZ2VuZXJhdGVkLXVpLXNjcmVlbi1wYW5lbC1wYWRkaW5nKTsKfQo8L3N0eWxlPgo=",
+            "preserveOnRemove": false,
+            "reason": "Install shell-driven home surface starter page.",
+            "category": "shell-web",
+            "id": "shell-web-page-home"
+          },
+          {
+            "path": "src/pages/home/settings.vue",
+            "hash": "ebf4f694e3b52bf8f899f78f8211c3350fc48ba3f822d2b68406724e523a7e2a",
+            "hadPrevious": false,
+            "previousContentBase64": "",
+            "preserveOnRemove": false,
+            "reason": "Install shell-driven home settings shell route with section navigation.",
+            "category": "shell-web",
+            "id": "shell-web-page-home-settings-shell"
+          },
+          {
+            "path": "src/pages/home/settings/index.vue",
+            "hash": "e82040354f747a009887df7cf3f2f25911e42959f40d376ba254fa7e8fa69247",
+            "hadPrevious": true,
+            "previousContentBase64": "PHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgcmVkaXJlY3RUb0NoaWxkIH0gZnJvbSAiQGpza2l0LWFpL2tlcm5lbC9jbGllbnQvcGFnZVJlZGlyZWN0cyI7CgpkZWZpbmVQYWdlKHsKICByZWRpcmVjdDogcmVkaXJlY3RUb0NoaWxkKCJnZW5lcmFsIikKfSk7Cjwvc2NyaXB0Pgo=",
+            "preserveOnRemove": false,
+            "reason": "Install shell-driven home settings redirect so the starter settings shell lands on a real child page.",
+            "category": "shell-web",
+            "id": "shell-web-page-home-settings"
+          },
+          {
+            "path": "src/pages/home/settings/general/index.vue",
+            "hash": "ef2c566a83b707e5e69c9e821caf891f177ee344fa0c6ab7307b3031f618c3bf",
+            "hadPrevious": true,
+            "previousContentBase64": "PHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgY29tcHV0ZWQgfSBmcm9tICJ2dWUiOwppbXBvcnQgeyB1c2VTaGVsbExheW91dFN0YXRlIH0gZnJvbSAiQGpza2l0LWFpL3NoZWxsLXdlYi9jbGllbnQvY29tcG9zYWJsZXMvdXNlU2hlbGxMYXlvdXRTdGF0ZSI7Cgpjb25zdCB7IGRyYXdlckRlZmF1bHRPcGVuLCBzZXREcmF3ZXJEZWZhdWx0T3BlbiB9ID0gdXNlU2hlbGxMYXlvdXRTdGF0ZSgpOwoKY29uc3QgZHJhd2VyRGVmYXVsdE9wZW5Nb2RlbCA9IGNvbXB1dGVkKHsKICBnZXQoKSB7CiAgICByZXR1cm4gZHJhd2VyRGVmYXVsdE9wZW4udmFsdWU7CiAgfSwKICBzZXQodmFsdWUpIHsKICAgIHNldERyYXdlckRlZmF1bHRPcGVuKEJvb2xlYW4odmFsdWUpKTsKICB9Cn0pOwo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8c2VjdGlvbiBjbGFzcz0iZ2VuZXJhdGVkLXVpLXNjcmVlbiBnZW5lcmF0ZWQtdWktc2NyZWVuLS1zZXR0aW5ncyBzZXR0aW5ncy1nZW5lcmFsLXNjcmVlbiBkLWZsZXggZmxleC1jb2x1bW4gZ2EtNCI+CiAgICA8ZGl2PgogICAgICA8aDIgY2xhc3M9InRleHQtaDYgbWItMiI+TmF2aWdhdGlvbjwvaDI+CiAgICAgIDxwIGNsYXNzPSJ0ZXh0LWJvZHktMiB0ZXh0LW1lZGl1bS1lbXBoYXNpcyBtYi0wIj4KICAgICAgICBDaG9vc2UgdGhlIGRlZmF1bHQgYmVoYXZpb3IgZm9yIHdpZGVyIHNjcmVlbnMuIFBob25lIGxheW91dHMga2VlcCBwcmltYXJ5IG5hdmlnYXRpb24gaW4gdGhlIGJvdHRvbSBiYXIuCiAgICAgIDwvcD4KICAgIDwvZGl2PgoKICAgIDx2LXN3aXRjaAogICAgICB2LW1vZGVsPSJkcmF3ZXJEZWZhdWx0T3Blbk1vZGVsIgogICAgICBjb2xvcj0icHJpbWFyeSIKICAgICAgaW5zZXQKICAgICAgaGlkZS1kZXRhaWxzPSJhdXRvIgogICAgICBsYWJlbD0iT3BlbiBkcmF3ZXIgYnkgZGVmYXVsdCBvbiB3aWRlciBzY3JlZW5zIgogICAgLz4KICA8L3NlY3Rpb24+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkPgouc2V0dGluZ3MtZ2VuZXJhbC1zY3JlZW4gOmRlZXAoLnYtc3dpdGNoKSB7CiAgbWluLWhlaWdodDogNDhweDsKfQo8L3N0eWxlPgo=",
+            "preserveOnRemove": false,
+            "reason": "Install shell-driven general settings child page with a tiny browser-local shell preference example.",
+            "category": "shell-web",
+            "id": "shell-web-page-home-settings-general"
+          },
+          {
+            "path": "tests/e2e/adaptive-shell.spec.ts",
+            "hash": "456cbb65ebd0b97052e4e171bf87081e89b293fe67b9250af2cf876969d4eafd",
+            "hadPrevious": true,
+            "previousContentBase64": "aW1wb3J0IHsgZXhwZWN0LCB0ZXN0IH0gZnJvbSAiQHBsYXl3cmlnaHQvdGVzdCI7CmltcG9ydCB7IHJ1bkFkYXB0aXZlU2hlbGxTbW9rZSB9IGZyb20gIkBqc2tpdC1haS9zaGVsbC13ZWIvdGVzdC9hZGFwdGl2ZVNoZWxsU21va2UiOwoKcnVuQWRhcHRpdmVTaGVsbFNtb2tlKHsgdGVzdCwgZXhwZWN0IH0pOwo=",
+            "preserveOnRemove": false,
+            "reason": "Install compact/medium/expanded Playwright smoke coverage for the adaptive shell.",
+            "category": "shell-web",
+            "id": "shell-web-test-adaptive-shell-smoke"
+          }
+        ],
+        "migrations": []
+      },
+      "options": {},
+      "installedAt": "2026-07-13T11:22:01.735Z",
+      "migrationSyncVersion": "0.1.113"
+    },
+    "@jskit-ai/auth-core": {
+      "packageId": "@jskit-ai/auth-core",
+      "version": "0.1.112",
+      "source": {
+        "type": "catalog",
+        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/auth-core"
+      },
+      "managed": {
+        "packageJson": {
+          "dependencies": {
+            "@fastify/cookie": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "^11.0.2"
+            },
+            "@fastify/csrf-protection": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "^7.1.0"
+            },
+            "@fastify/rate-limit": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "^10.3.0"
+            },
+            "@jskit-ai/auth-core": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "0.x"
+            }
+          },
+          "devDependencies": {},
+          "scripts": {}
+        },
+        "text": {},
+        "source": {},
+        "vite": {},
+        "files": [],
+        "migrations": []
+      },
+      "options": {},
+      "installedAt": "2026-07-13T11:22:01.732Z",
+      "migrationSyncVersion": "0.1.112"
+    },
+    "@jskit-ai/http-runtime": {
+      "packageId": "@jskit-ai/http-runtime",
+      "version": "0.1.112",
+      "source": {
+        "type": "catalog",
+        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/http-runtime"
+      },
+      "managed": {
+        "packageJson": {
+          "dependencies": {},
+          "devDependencies": {},
+          "scripts": {}
+        },
+        "text": {},
+        "source": {},
+        "vite": {},
+        "files": [],
+        "migrations": []
+      },
+      "options": {},
+      "installedAt": "2026-07-13T11:22:01.734Z",
+      "migrationSyncVersion": "0.1.112"
+    },
+    "@jskit-ai/auth-web": {
+      "packageId": "@jskit-ai/auth-web",
+      "version": "0.1.114",
+      "source": {
+        "type": "catalog",
+        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/auth-web"
+      },
+      "managed": {
+        "packageJson": {
+          "dependencies": {
+            "@jskit-ai/auth-web": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "0.x"
+            }
+          },
+          "devDependencies": {},
+          "scripts": {
+            "server:auth": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "SERVER_SURFACE=auth node ./bin/server.js"
+            },
+            "dev:auth": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "VITE_SURFACE=auth vite"
+            },
+            "build:auth": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "VITE_SURFACE=auth vite build"
+            }
+          }
+        },
+        "text": {
+          "config/public.js::auth-web-surface-config-auth": {
+            "file": "config/public.js",
+            "op": "append-text",
+            "value": "\nconfig.surfaceDefinitions.auth = {\n  id: \"auth\",\n  label: \"Auth\",\n  pagesRoot: \"auth\",\n  enabled: true,\n  requiresAuth: false,\n  requiresWorkspace: false,\n  origin: \"\"\n};\n",
+            "position": "bottom",
+            "reason": "Register auth surface definition in public surface config.",
+            "category": "auth-web",
+            "id": "auth-web-surface-config-auth"
+          },
+          "src/placement.js::auth-web-placement-block": {
+            "file": "src/placement.js",
+            "op": "append-text",
+            "value": "\naddPlacement({\n  id: \"auth.profile.widget\",\n  target: \"shell.status\",\n  kind: \"component\",\n  surfaces: [\"*\"],\n  order: 1000,\n  componentToken: \"auth.web.profile.widget\"\n});\n\naddPlacement({\n  id: \"auth.profile.menu.sign-in\",\n  target: \"auth.profile-menu\",\n  kind: \"link\",\n  surfaces: [\"*\"],\n  order: 200,\n  props: {\n    label: \"Sign in\",\n    to: \"/auth/login\"\n  },\n  when: ({ auth }) => auth?.authenticated !== true\n});\n\naddPlacement({\n  id: \"auth.profile.menu.sign-out\",\n  target: \"auth.profile-menu\",\n  kind: \"link\",\n  surfaces: [\"*\"],\n  order: 1000,\n  props: {\n    label: \"Sign out\",\n    to: \"/auth/signout\"\n  },\n  when: ({ auth }) => auth?.authenticated === true\n});\n",
+            "position": "bottom",
+            "reason": "Append auth profile placement entries into app-owned placement registry.",
+            "category": "auth-web",
+            "id": "auth-web-placement-block"
+          },
+          "src/placementTopology.js::auth-web-profile-menu-topology": {
+            "file": "src/placementTopology.js",
+            "op": "append-text",
+            "value": "\naddPlacementTopology({\n  id: \"auth.profile-menu\",\n  description: \"Authenticated profile menu actions.\",\n  surfaces: [\"*\"],\n  variants: {\n    compact: {\n      outlet: \"auth-profile-menu:primary-menu\",\n      renderers: {\n        link: \"auth.web.profile.menu.link-item\"\n      }\n    },\n    medium: {\n      outlet: \"auth-profile-menu:primary-menu\",\n      renderers: {\n        link: \"auth.web.profile.menu.link-item\"\n      }\n    },\n    expanded: {\n      outlet: \"auth-profile-menu:primary-menu\",\n      renderers: {\n        link: \"auth.web.profile.menu.link-item\"\n      }\n    }\n  }\n});\n",
+            "position": "bottom",
+            "reason": "Append auth profile menu topology into the app-owned placement topology.",
+            "category": "auth-web",
+            "id": "auth-web-profile-menu-topology"
+          }
+        },
+        "source": {},
+        "vite": {},
+        "files": [
+          {
+            "path": "src/views/auth/LoginView.vue",
+            "hash": "e73adefd3e6e9c4188ec94c9797eb7af161da5f6d1ba3dd5502dd4cdaca1eca4",
+            "hadPrevious": false,
+            "previousContentBase64": "",
+            "preserveOnRemove": false,
+            "reason": "Install minimal login container that renders the module-provided DefaultLoginView by default.",
+            "category": "auth-web",
+            "id": "auth-view-login"
+          },
+          {
+            "path": "src/views/auth/SignOutView.vue",
+            "hash": "7fa51245e90a862b25926d306fdd80849dc663c6cac1fb71f42fd54cc4d83780",
+            "hadPrevious": false,
+            "previousContentBase64": "",
+            "preserveOnRemove": false,
+            "reason": "Install minimal sign-out container that renders the module-provided SignOutView by default (edit the scaffolded file to customize).",
+            "category": "auth-web",
+            "id": "auth-view-signout"
+          },
+          {
+            "path": "src/views/auth/ResetPasswordView.vue",
+            "hash": "3e62b0911364945ab07414dcc166ca653aa0718ba6f31104bb084b4e2026f85b",
+            "hadPrevious": false,
+            "previousContentBase64": "",
+            "preserveOnRemove": false,
+            "reason": "Install minimal password reset container that renders the module-provided DefaultResetPasswordView by default.",
+            "category": "auth-web",
+            "id": "auth-view-reset-password"
+          },
+          {
+            "path": "src/pages/auth/login.vue",
+            "hash": "ca4916a3d4608f5249b8eb66bbacd13f6860274a10c5f81164ae8da38704c289",
+            "hadPrevious": false,
+            "previousContentBase64": "",
+            "preserveOnRemove": false,
+            "reason": "Provide an auth-surface /auth/login wrapper that renders the package login view.",
+            "category": "auth-web",
+            "id": "auth-page-login"
+          },
+          {
+            "path": "src/pages/auth/signout.vue",
+            "hash": "0ada4fe6f41a0b2d0ed74b2e4762da46f2031534c5ee6b4d394c252ca05cd235",
+            "hadPrevious": false,
+            "previousContentBase64": "",
+            "preserveOnRemove": false,
+            "reason": "Provide an auth-surface /auth/signout wrapper that renders the package sign-out view.",
+            "category": "auth-web",
+            "id": "auth-page-signout"
+          },
+          {
+            "path": "src/pages/auth/reset-password.vue",
+            "hash": "d40cc3f89fc0fd1ac21f645dcccf534281c86c6e6b96bc80d4fcacb0a48c375e",
+            "hadPrevious": false,
+            "previousContentBase64": "",
+            "preserveOnRemove": false,
+            "reason": "Provide an auth-surface /auth/reset-password wrapper that renders the package password reset view.",
+            "category": "auth-web",
+            "id": "auth-page-reset-password"
+          }
+        ],
+        "migrations": []
+      },
+      "options": {},
+      "installedAt": "2026-07-13T11:22:03.544Z",
+      "migrationSyncVersion": "0.1.114"
+    },
+    "@jskit-ai/auth-provider-local-core": {
+      "packageId": "@jskit-ai/auth-provider-local-core",
+      "version": "0.1.13",
+      "source": {
+        "type": "catalog",
+        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/auth-provider-local-core"
+      },
+      "managed": {
+        "packageJson": {
+          "dependencies": {
+            "nodemailer": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "^7.0.10"
+            },
+            "dotenv": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "^16.4.5"
+            },
+            "@jskit-ai/auth-provider-local-core": {
+              "hadPrevious": false,
+              "previousValue": "",
+              "value": "0.x"
+            }
+          },
+          "devDependencies": {},
+          "scripts": {}
+        },
+        "text": {
+          ".env::auth-provider": {
+            "file": ".env",
+            "op": "upsert-env",
+            "key": "AUTH_PROVIDER",
+            "value": "local",
+            "hadPrevious": true,
+            "previousValue": "local",
+            "reason": "Select local auth as the auth provider.",
+            "category": "runtime-config",
+            "id": "auth-provider"
+          },
+          ".env::auth-local-backend": {
+            "file": ".env",
+            "op": "upsert-env",
+            "key": "AUTH_LOCAL_BACKEND",
+            "value": "file",
+            "hadPrevious": true,
+            "previousValue": "file",
+            "reason": "Use the built-in local file auth backend.",
+            "category": "runtime-config",
+            "id": "auth-local-backend"
+          },
+          ".gitignore::auth-local-store-gitignore": {
+            "file": ".gitignore",
+            "op": "append-text",
+            "value": "\n.jskit/auth/\n",
+            "position": "bottom",
+            "reason": "Ignore local auth runtime state.",
+            "category": "runtime-state",
+            "id": "auth-local-store-gitignore"
+          }
+        },
+        "source": {},
+        "vite": {},
+        "files": [],
+        "migrations": []
+      },
+      "options": {},
+      "installedAt": "2026-07-13T11:22:05.335Z",
+      "migrationSyncVersion": "0.1.13"
+    }
+  }
+}

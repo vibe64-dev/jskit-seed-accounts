@@ -1,0 +1,5218 @@
+{
+  "schemaVersion": 2,
+  "generatedBy": "jskit helper-map update",
+  "rootPackage": {
+    "name": "app",
+    "version": "0.1.0"
+  },
+  "app": {
+    "files": [
+      {
+        "path": "config/public.js",
+        "exports": [
+          {
+            "name": "config",
+            "kind": "value",
+            "role": "export"
+          }
+        ]
+      },
+      {
+        "path": "config/server.js",
+        "exports": [
+          {
+            "name": "config",
+            "kind": "value",
+            "role": "export"
+          }
+        ]
+      },
+      {
+        "path": "config/surfaceAccessPolicies.js",
+        "exports": [
+          {
+            "name": "surfaceAccessPolicies",
+            "kind": "value",
+            "role": "export"
+          }
+        ]
+      },
+      {
+        "path": "packages/main/package.descriptor.mjs",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "packages/main/src/client/index.js",
+        "exports": [
+          {
+            "name": "MainClientProvider",
+            "kind": "export",
+            "role": "component_or_class"
+          },
+          {
+            "name": "registerMainClientComponent",
+            "kind": "export",
+            "role": "export"
+          }
+        ]
+      },
+      {
+        "path": "packages/main/src/client/providers/MainClientProvider.js",
+        "exports": [
+          {
+            "name": "MainClientProvider",
+            "kind": "export",
+            "role": "component_or_class"
+          },
+          {
+            "name": "registerMainClientComponent",
+            "kind": "export",
+            "role": "export"
+          }
+        ]
+      },
+      {
+        "path": "packages/main/src/server/index.js",
+        "exports": [
+          {
+            "name": "MainServiceProvider",
+            "kind": "export",
+            "role": "component_or_class"
+          }
+        ]
+      },
+      {
+        "path": "packages/main/src/server/loadAppConfig.js",
+        "exports": [
+          {
+            "name": "loadAppConfig",
+            "kind": "export",
+            "role": "helper"
+          }
+        ]
+      },
+      {
+        "path": "packages/main/src/server/MainServiceProvider.js",
+        "exports": [
+          {
+            "name": "MainServiceProvider",
+            "kind": "export",
+            "role": "component_or_class"
+          }
+        ]
+      },
+      {
+        "path": "server/lib/runtimeEnv.js",
+        "exports": [
+          {
+            "name": "resolveRuntimeEnv",
+            "kind": "export",
+            "role": "helper"
+          }
+        ]
+      },
+      {
+        "path": "server/lib/surfaceRuntime.js",
+        "exports": [
+          {
+            "name": "surfaceRuntime",
+            "kind": "export",
+            "role": "export"
+          }
+        ]
+      },
+      {
+        "path": "src/App.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/components/menus/MenuLinkItem.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/components/menus/SurfaceAwareMenuLinkItem.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/components/menus/TabLinkItem.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/components/ShellLayout.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/error.js",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/pages/auth/login.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/pages/auth/reset-password.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/pages/auth/signout.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/pages/home.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/pages/home/settings.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/pages/home/settings/general/index.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/pages/home/settings/index.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/placement.js",
+        "exports": [
+          {
+            "name": "addPlacement",
+            "kind": "export",
+            "role": "export"
+          },
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/placementTopology.js",
+        "exports": [
+          {
+            "name": "addPlacementTopology",
+            "kind": "export",
+            "role": "export"
+          },
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/views/auth/LoginView.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/views/auth/ResetPasswordView.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/views/auth/SignOutView.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      },
+      {
+        "path": "src/views/NotFound.vue",
+        "exports": [
+          {
+            "name": "default",
+            "kind": "default",
+            "role": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "jskitPackages": [
+    {
+      "name": "@jskit-ai/agent-docs",
+      "version": "0.1.75",
+      "fingerprint": "20111a33662d7678f0e56d805b7c06541e2f349453e8c831a9cbba4c734640d2",
+      "installed": true,
+      "exports": []
+    },
+    {
+      "name": "@jskit-ai/auth-core",
+      "version": "0.1.112",
+      "fingerprint": "d0a4f865d3633ef00c2a8610b3ccc9226f99816b5ec384db8c4638091d42d2b0",
+      "installed": true,
+      "exports": [
+        {
+          "subpath": "./client",
+          "target": "src/client/index.js",
+          "exports": [
+            {
+              "name": "AccessCoreClientProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "FastifyAuthPolicyClientProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/authApi",
+          "target": "src/client/authApi.js",
+          "exports": [
+            {
+              "name": "createApi",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/signOutFlow",
+          "target": "src/client/signOutFlow.js",
+          "exports": [
+            {
+              "name": "runAuthSignOutFlow",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/actions/auth.contributor",
+          "target": "src/server/actions/auth.contributor.js",
+          "exports": [
+            {
+              "name": "baseAuthActions",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "buildAuthActions",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "requireRequestContext",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/authActor",
+          "target": "src/server/authActor.js",
+          "exports": [
+            {
+              "name": "buildLegacyProfileFromActor",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createAuthIdentityId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthActor",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthResult",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/authPolicyContextResolverRegistry",
+          "target": "src/server/authPolicyContextResolverRegistry.js",
+          "exports": [
+            {
+              "name": "AUTH_POLICY_CONTEXT_RESOLVER_TAG",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "composeAuthPolicyContextResolvers",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "mergeAuthPolicyContexts",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "registerAuthPolicyContextResolver",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveAuthPolicyContextResolvers",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveComposedAuthPolicyContextResolver",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/authServiceDecoratorRegistry",
+          "target": "src/server/authServiceDecoratorRegistry.js",
+          "exports": [
+            {
+              "name": "applyAuthServiceDecorators",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "AUTH_SERVICE_DECORATOR_TAG",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "registerAuthServiceDecorator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveAuthServiceDecorators",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/inviteTokens",
+          "target": "src/server/inviteTokens.js",
+          "exports": [
+            {
+              "name": "buildInviteToken",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "decodeInviteTokenHash",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "encodeInviteTokenHash",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "hashInviteToken",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "isSha256Hex",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeInviteToken",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "OPAQUE_INVITE_TOKEN_HASH_PREFIX",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "resolveInviteTokenHash",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/lib/index",
+          "target": "src/server/lib/index.js",
+          "exports": [
+            {
+              "name": "AUTH_OPERATION_UNSUPPORTED_CODE",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authPolicyPlugin",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "buildLegacyProfileFromActor",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createAuthIdentityId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createUnsupportedAuthOperationError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isUnsupportedAuthOperationError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "mergeAuthPolicy",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "normalizeAuthActor",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthResult",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "throwUnsupportedAuthOperation",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "withAuthPolicy",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/lib/plugin",
+          "target": "src/server/lib/plugin.js",
+          "exports": [
+            {
+              "name": "authPolicyPlugin",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/lib/routeMeta",
+          "target": "src/server/lib/routeMeta.js",
+          "exports": [
+            {
+              "name": "AUTH_POLICIES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CONTEXT_POLICIES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "DEFAULT_AUTH_POLICY_META",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "mergeAuthPolicy",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveAuthPolicyMeta",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "withAuthPolicy",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/membershipAccess",
+          "target": "src/server/membershipAccess.js",
+          "exports": [
+            {
+              "name": "createMembershipIndexes",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeMembershipForAccess",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePermissions",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveMembershipRoleId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveMembershipStatus",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/providers/AccessCoreServiceProvider",
+          "target": "src/server/providers/AccessCoreServiceProvider.js",
+          "exports": [
+            {
+              "name": "AccessCoreServiceProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/providers/AuthActionsServiceProvider",
+          "target": "src/server/providers/AuthActionsServiceProvider.js",
+          "exports": [
+            {
+              "name": "AuthActionsServiceProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/providers/FastifyAuthPolicyServiceProvider",
+          "target": "src/server/providers/FastifyAuthPolicyServiceProvider.js",
+          "exports": [
+            {
+              "name": "FastifyAuthPolicyServiceProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/services/authSessionEventsService",
+          "target": "src/server/services/authSessionEventsService.js",
+          "exports": [
+            {
+              "name": "createAuthSessionEventsService",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/unsupportedOperation",
+          "target": "src/server/unsupportedOperation.js",
+          "exports": [
+            {
+              "name": "AUTH_OPERATION_UNSUPPORTED_CODE",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "createUnsupportedAuthOperationError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isUnsupportedAuthOperationError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "throwUnsupportedAuthOperation",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/utils",
+          "target": "src/server/utils.js",
+          "exports": [
+            {
+              "name": "normalizeEmail",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeOAuthIntent",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeReturnToPath",
+              "kind": "function",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/validators",
+          "target": "src/server/validators.js",
+          "exports": [
+            {
+              "name": "confirmPassword",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "forgotPasswordInput",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "loginInput",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "loginPassword",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "registerInput",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "registerPassword",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resetPassword",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resetPasswordInput",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "validators",
+              "kind": "value",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared",
+          "target": "src/shared/index.js",
+          "exports": [
+            {
+              "name": "AUTH_DENIED_CODES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_DENIED_DEFAULT_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_DENIED_LOGIN_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_OPTIONAL_OPERATION_FEATURES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_PASSWORD_RECOVERY_DELIVERIES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_PATHS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "buildAuthOauthStartPath",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "buildSecurityStatusFromAuthMethodsStatus",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createApi",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "getCapabilityFeature",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isAuthOperationSupported",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthCapabilities",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthDenied",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthProviderId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthSecurityStatus",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveAuthDeniedLoginMessage",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "runAuthSignOutFlow",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/authApi",
+          "target": "src/shared/authApi.js",
+          "exports": [
+            {
+              "name": "createApi",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/authCapabilities",
+          "target": "src/shared/authCapabilities.js",
+          "exports": [
+            {
+              "name": "AUTH_OPTIONAL_OPERATION_FEATURES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_PASSWORD_RECOVERY_DELIVERIES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "getCapabilityFeature",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isAuthOperationSupported",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthCapabilities",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthProviderId",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/authConstraints",
+          "target": "src/shared/authConstraints.js",
+          "exports": [
+            {
+              "name": "AUTH_ACCESS_TOKEN_MAX_LENGTH",
+              "kind": "value",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_EMAIL_MAX_LENGTH",
+              "kind": "value",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_EMAIL_MIN_LENGTH",
+              "kind": "value",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_EMAIL_PATTERN",
+              "kind": "value",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_EMAIL_REGEX",
+              "kind": "value",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_LOGIN_PASSWORD_MAX_LENGTH",
+              "kind": "value",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_PASSWORD_MAX_LENGTH",
+              "kind": "value",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_PASSWORD_MIN_LENGTH",
+              "kind": "value",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_RECOVERY_TOKEN_MAX_LENGTH",
+              "kind": "value",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_REFRESH_TOKEN_MAX_LENGTH",
+              "kind": "value",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/authDenied",
+          "target": "src/shared/authDenied.js",
+          "exports": [
+            {
+              "name": "AUTH_DENIED_CODE_MAX_LENGTH",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_DENIED_CODE_PATTERN",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_DENIED_CODES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_DENIED_DEFAULT_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_DENIED_LOGIN_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_DENIED_MESSAGE_MAX_LENGTH",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "normalizeAuthDenied",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthDeniedCode",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveAuthDeniedLoginMessage",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/authMethods",
+          "target": "src/shared/authMethods.js",
+          "exports": [
+            {
+              "name": "AUTH_METHOD_DEFINITIONS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_METHOD_EMAIL_OTP_ID",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_METHOD_EMAIL_OTP_PROVIDER",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_METHOD_IDS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_METHOD_KIND_OAUTH",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_METHOD_KIND_OTP",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_METHOD_KIND_PASSWORD",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_METHOD_KINDS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_METHOD_MINIMUM_ENABLED",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_METHOD_PASSWORD_ID",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AUTH_METHOD_PASSWORD_PROVIDER",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "buildAuthMethodDefinitions",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "buildAuthMethodIds",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "buildOAuthMethodDefinitions",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "buildOAuthMethodId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "findAuthMethodDefinition",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "parseAuthMethodId",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/authPaths",
+          "target": "src/shared/authPaths.js",
+          "exports": [
+            {
+              "name": "AUTH_PATHS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "buildAuthOauthStartPath",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/authSecurityStatus",
+          "target": "src/shared/authSecurityStatus.js",
+          "exports": [
+            {
+              "name": "buildSecurityStatusFromAuthMethodsStatus",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeAuthSecurityStatus",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands",
+          "target": "src/shared/commands/index.js",
+          "exports": [
+            {
+              "name": "authDevLoginAsCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginOAuthCompleteCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginOAuthStartCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginOtpRequestCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginOtpVerifyCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginPasswordCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLogoutCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authPasswordRecoveryCompleteCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authPasswordResetCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authPasswordResetRequestCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authRegisterCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authRegisterConfirmationResendCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authSessionReadCommand",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authDevLoginAsCommand",
+          "target": "src/shared/commands/authDevLoginAsCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_DEV_LOGIN_AS_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authDevLoginAsBodyValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authDevLoginAsCommand",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authLoginOAuthCompleteCommand",
+          "target": "src/shared/commands/authLoginOAuthCompleteCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_LOGIN_OAUTH_COMPLETE_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authLoginOAuthCompleteBodyValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginOAuthCompleteCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "oauthCompleteOutputValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authLoginOAuthStartCommand",
+          "target": "src/shared/commands/authLoginOAuthStartCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_LOGIN_OAUTH_START_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authLoginOAuthStartCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginOAuthStartOutputValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginOAuthStartParamsValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginOAuthStartQueryValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authLoginOtpRequestCommand",
+          "target": "src/shared/commands/authLoginOtpRequestCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_LOGIN_OTP_REQUEST_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authLoginOtpRequestBodyValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginOtpRequestCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "okMessageOutputValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authLoginOtpVerifyCommand",
+          "target": "src/shared/commands/authLoginOtpVerifyCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_LOGIN_OTP_VERIFY_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authLoginOtpVerifyBodyValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginOtpVerifyCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "otpVerifyOutputValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authLoginPasswordCommand",
+          "target": "src/shared/commands/authLoginPasswordCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_LOGIN_PASSWORD_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authLoginPasswordBodyValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authLoginPasswordCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "loginOutputValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authLogoutCommand",
+          "target": "src/shared/commands/authLogoutCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_LOGOUT_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authLogoutCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "logoutOutputValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authPasswordRecoveryCompleteCommand",
+          "target": "src/shared/commands/authPasswordRecoveryCompleteCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_PASSWORD_RECOVERY_COMPLETE_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authPasswordRecoveryCompleteBodyValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authPasswordRecoveryCompleteCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "okOutputValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authPasswordResetCommand",
+          "target": "src/shared/commands/authPasswordResetCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_PASSWORD_RESET_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authPasswordResetBodyValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authPasswordResetCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "okMessageOutputValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authPasswordResetRequestCommand",
+          "target": "src/shared/commands/authPasswordResetRequestCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_PASSWORD_RESET_REQUEST_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authPasswordResetRequestBodyValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authPasswordResetRequestCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "okMessageOutputValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authRegisterCommand",
+          "target": "src/shared/commands/authRegisterCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_REGISTER_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authRegisterBodyValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authRegisterCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "registerOutputValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authRegisterConfirmationResendCommand",
+          "target": "src/shared/commands/authRegisterConfirmationResendCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_REGISTER_CONFIRMATION_RESEND_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authRegisterConfirmationResendBodyValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "authRegisterConfirmationResendCommand",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/commands/authSessionReadCommand",
+          "target": "src/shared/commands/authSessionReadCommand.js",
+          "exports": [
+            {
+              "name": "AUTH_SESSION_READ_MESSAGES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "authSessionReadCommand",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "sessionOutputValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "sessionUnavailableOutputValidator",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/inputNormalization",
+          "target": "src/shared/inputNormalization.js",
+          "exports": [
+            {
+              "name": "normalizeObjectInput",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/inviteTokens",
+          "target": "src/shared/inviteTokens.js",
+          "exports": [
+            {
+              "name": "decodeInviteTokenHash",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "encodeInviteTokenHash",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "isSha256Hex",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeInviteToken",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "OPAQUE_INVITE_TOKEN_HASH_PREFIX",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/oauthCallbackParams",
+          "target": "src/shared/oauthCallbackParams.js",
+          "exports": [
+            {
+              "name": "OAUTH_QUERY_PARAM_INTENT",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "OAUTH_QUERY_PARAM_PROVIDER",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "OAUTH_QUERY_PARAM_RETURN_TO",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/oauthProviders",
+          "target": "src/shared/oauthProviders.js",
+          "exports": [
+            {
+              "name": "isValidOAuthProviderId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeOAuthProviderId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeOAuthProviderList",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "OAUTH_PROVIDER_ID_PATTERN",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "OAUTH_PROVIDER_ID_REGEX",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/signOutFlow",
+          "target": "src/shared/signOutFlow.js",
+          "exports": [
+            {
+              "name": "runAuthSignOutFlow",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "@jskit-ai/auth-provider-local-core",
+      "version": "0.1.13",
+      "fingerprint": "ff76f9ca068857deebc9e401d8ad38e55d891c34dedaa249f409abffced30a49",
+      "installed": true,
+      "exports": [
+        {
+          "subpath": "./server/lib/index",
+          "target": "src/server/lib/index.js",
+          "exports": [
+            {
+              "name": "createLocalAuthRegisterHookDecorator",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createLocalAuthService",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createLocalFileBackend",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "hashPassword",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "LOCAL_AUTH_USER_REGISTERED_EVENT",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "normalizePasswordStrategy",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "verifyPassword",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/providers/AuthLocalServiceProvider",
+          "target": "src/server/providers/AuthLocalServiceProvider.js",
+          "exports": [
+            {
+              "name": "AuthLocalServiceProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "resolveLocalBackendMode",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/providers/AuthProviderServiceProvider",
+          "target": "src/server/providers/AuthProviderServiceProvider.js",
+          "exports": [
+            {
+              "name": "AuthProviderServiceProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "@jskit-ai/auth-web",
+      "version": "0.1.114",
+      "fingerprint": "c826321ecc5e431f3a2b5a150bc630102940dafed4dcb6b9460b01aec59ed2db",
+      "installed": true,
+      "exports": [
+        {
+          "subpath": "./client",
+          "target": "src/client/index.js",
+          "exports": [
+            {
+              "name": "AuthProfileMenuLinkItem",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AuthProfileWidget",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AuthWebClientProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "clientProviders",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "completeOAuthCallbackFromCurrentLocation",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "completeOAuthCallbackFromUrl",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "DefaultLoginView",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "DefaultResetPasswordView",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "DefaultSignOutView",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "readOAuthCallbackParamsFromUrl",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "routeComponents",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "useAuthGuardRuntime",
+              "kind": "export",
+              "role": "composable"
+            },
+            {
+              "name": "useAuthStore",
+              "kind": "export",
+              "role": "composable"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/runtime/authGuardRuntime",
+          "target": "src/client/runtime/authGuardRuntime.js",
+          "exports": [
+            {
+              "name": "createAuthGuardRuntime",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "getAuthGuardState",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "initializeAuthGuardRuntime",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "isAuthGuardRuntime",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "refreshAuthGuardState",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/runtime/authHttpClient",
+          "target": "src/client/runtime/authHttpClient.js",
+          "exports": [
+            {
+              "name": "authHttpRequest",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "clearAuthCsrfTokenCache",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/runtime/oauthCallbackRuntime",
+          "target": "src/client/runtime/oauthCallbackRuntime.js",
+          "exports": [
+            {
+              "name": "completeOAuthCallbackFromCurrentLocation",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "completeOAuthCallbackFromUrl",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "readOAuthCallbackParamsFromUrl",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/runtime/useSignOut",
+          "target": "src/client/runtime/useSignOut.js",
+          "exports": [
+            {
+              "name": "createSignOutAction",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "performSignOutRequest",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "useSignOut",
+              "kind": "export",
+              "role": "composable"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/views/DefaultLoginView",
+          "target": "src/client/views/DefaultLoginView.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/views/DefaultResetPasswordView",
+          "target": "src/client/views/DefaultResetPasswordView.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/views/DefaultSignOutView",
+          "target": "src/client/views/DefaultSignOutView.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/controllers/AuthController",
+          "target": "src/server/controllers/AuthController.js",
+          "exports": [
+            {
+              "name": "AUTH_ACTION_IDS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "AuthController",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "createController",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/routes/authRoutes",
+          "target": "src/server/routes/authRoutes.js",
+          "exports": [
+            {
+              "name": "buildRoutes",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/services/AuthWebService",
+          "target": "src/server/services/AuthWebService.js",
+          "exports": [
+            {
+              "name": "AuthWebService",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "@jskit-ai/config-eslint",
+      "version": "0.1.112",
+      "fingerprint": "f747b8550c48bea07834c6f7148218c3a8968596e79bb2055727a447434d6e65",
+      "installed": true,
+      "exports": [
+        {
+          "subpath": ".",
+          "target": "src/index.js",
+          "exports": []
+        },
+        {
+          "subpath": "./base",
+          "target": "base.js",
+          "exports": [
+            {
+              "name": "baseConfig",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./client",
+          "target": "src/client/index.js",
+          "exports": []
+        },
+        {
+          "subpath": "./node",
+          "target": "node.js",
+          "exports": [
+            {
+              "name": "nodeConfig",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./server",
+          "target": "src/server/index.js",
+          "exports": []
+        },
+        {
+          "subpath": "./vue",
+          "target": "vue.js",
+          "exports": [
+            {
+              "name": "vueConfig",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./web",
+          "target": "web.js",
+          "exports": [
+            {
+              "name": "webConfig",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "@jskit-ai/http-runtime",
+      "version": "0.1.112",
+      "fingerprint": "ef830597a8aa455c4ba1e5f16e9518fb6375df6347f5b783198b99fe3d55e107",
+      "installed": true,
+      "exports": [
+        {
+          "subpath": "./client",
+          "target": "src/client/index.js",
+          "exports": [
+            {
+              "name": "createHttpClient",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createHttpError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createNetworkError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createTransientRetryHttpClient",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createValidationFailure",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "DEFAULT_RETRYABLE_CSRF_ERROR_CODES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "hasHeader",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "HttpClientRuntimeClientProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "HttpValidatorsClientProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "normalizeFieldErrors",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeHeaderName",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveFieldErrors",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "setHeaderIfMissing",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "shouldRetryForCsrfFailure",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared",
+          "target": "src/shared/index.js",
+          "exports": [
+            {
+              "name": "apiErrorDetailsSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "apiErrorOutputValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "apiErrorTransportSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "apiValidationErrorDetailsSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "apiValidationErrorOutputValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "apiValidationErrorTransportSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "createCommand",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createCursorPagedListResponseSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiDocument",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiErrorDocumentFromFailure",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiErrorObject",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceObject",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceObjectTransportSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceQueryTransportSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceRequestBodyTransportSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceRouteContract",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceRouteTransport",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceSuccessTransportSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createPaginationQuerySchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createResource",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createTransportResponseSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "decodeJsonApiResourceQueryObject",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "encodeJsonApiResourceQueryObject",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "enumSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "fastifyDefaultErrorTransportSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "fieldErrorsFieldDefinition",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "isJsonApiCollectionDocument",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonApiContentType",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonApiDataResult",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonApiDocumentResult",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonApiErrorDocument",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonApiMetaResult",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonApiResourceDocument",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonApiResult",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonContentType",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "JSON_API_CONTENT_TYPE",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "JSON_API_ERROR_DOCUMENT_SCHEMA",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "JSON_API_QUERY_INCLUDE_KEY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "JSON_API_QUERY_PAGE_CURSOR_KEY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "JSON_API_QUERY_PAGE_LIMIT_KEY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "JSON_API_QUERY_SORT_KEY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "mapOperationIssues",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "mapPlainQueryKeyToTransportKey",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "mapTransportQueryKeyToPlainKey",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeJsonApiDocument",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeJsonApiResourceObject",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "passthroughErrorResponses",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveFieldSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveIssueField",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveIssueMessageFromSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveJsonApiTransportTypes",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveMissingRequiredFields",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveSchemaMessages",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "returnJsonApiData",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "returnJsonApiDocument",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "returnJsonApiMeta",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "simplifyJsonApiDocument",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "STANDARD_ERROR_STATUS_CODES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "unwrapJsonApiResult",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "validateOperationInput",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "validateOperationSection",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "withJsonApiErrorResponses",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "withStandardErrorResponses",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/validators/command",
+          "target": "src/shared/validators/command.js",
+          "exports": [
+            {
+              "name": "createCommand",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/validators/errorResponses",
+          "target": "src/shared/validators/errorResponses.js",
+          "exports": [
+            {
+              "name": "apiErrorDetailsSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "apiErrorOutputValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "apiErrorTransportSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "apiValidationErrorDetailsSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "apiValidationErrorOutputValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "apiValidationErrorTransportSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "createTransportResponseSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "enumSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "fastifyDefaultErrorTransportSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "fieldErrorsFieldDefinition",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "passthroughErrorResponses",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "STANDARD_ERROR_STATUS_CODES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "withStandardErrorResponses",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/validators/jsonApiResult",
+          "target": "src/shared/validators/jsonApiResult.js",
+          "exports": [
+            {
+              "name": "isJsonApiDataResult",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonApiDocumentResult",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonApiMetaResult",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isJsonApiResult",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "JSON_API_RESULT_MARKER",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "returnJsonApiData",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "returnJsonApiDocument",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "returnJsonApiMeta",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "unwrapJsonApiResult",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/validators/jsonApiRouteTransport",
+          "target": "src/shared/validators/jsonApiRouteTransport.js",
+          "exports": [
+            {
+              "name": "createJsonApiResourceObjectTransportSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceRequestBodyTransportSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceRouteContract",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceRouteTransport",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createJsonApiResourceSuccessTransportSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "JSON_API_ERROR_DOCUMENT_SCHEMA",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "withJsonApiErrorResponses",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/validators/operationMessages",
+          "target": "src/shared/validators/operationMessages.js",
+          "exports": [
+            {
+              "name": "mapOperationIssues",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveFieldSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveIssueField",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveIssueMessageFromSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveMissingRequiredFields",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveSchemaMessages",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/validators/operationValidation",
+          "target": "src/shared/validators/operationValidation.js",
+          "exports": [
+            {
+              "name": "validateOperationInput",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "validateOperationSection",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/validators/paginationQuery",
+          "target": "src/shared/validators/paginationQuery.js",
+          "exports": [
+            {
+              "name": "createPaginationQuerySchema",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/validators/resource",
+          "target": "src/shared/validators/resource.js",
+          "exports": [
+            {
+              "name": "createCursorPagedListResponseSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createResource",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "@jskit-ai/jskit-cli",
+      "version": "0.2.126",
+      "fingerprint": "df3509b2c291233c4b8e318fcafce5cbe604fb5fe06df744d5f6893a6bd20a80",
+      "installed": true,
+      "exports": [
+        {
+          "subpath": ".",
+          "target": "src/index.js",
+          "exports": []
+        },
+        {
+          "subpath": "./client",
+          "target": "src/client/index.js",
+          "exports": []
+        },
+        {
+          "subpath": "./server",
+          "target": "src/server/index.js",
+          "exports": [
+            {
+              "name": "runCli",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "@jskit-ai/kernel",
+      "version": "0.1.114",
+      "fingerprint": "0dccd9f15b9c69c6dcd8ea37bb3264a1b6b42313349d85855121afb937b1765c",
+      "installed": true,
+      "exports": [
+        {
+          "subpath": "./_testable",
+          "target": "_testable/index.js",
+          "exports": [
+            {
+              "name": "compileRouteValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "createApplication",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createContainer",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createHttpRuntime",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "deriveResourceRequiredMetadata",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./client",
+          "target": "client/index.d.ts",
+          "exports": [
+            {
+              "name": "AsyncModuleRecoveryState",
+              "kind": "type",
+              "role": "component_or_class"
+            },
+            {
+              "name": "bootstrapClientShellApp",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "ClientLogger",
+              "kind": "type",
+              "role": "component_or_class"
+            },
+            {
+              "name": "createAsyncModuleRecoveryState",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "createComponentInteractionEmitter",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "createShellRouter",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "dismissAsyncModuleRecovery",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "dynamicImportErrorMessage",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "getClientAppConfig",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "guardedReloadApp",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "installAsyncModuleRecoveryHandlers",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "isDynamicImportError",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeIncomingAppUrl",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "notifyAsyncModuleLoadError",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "registerMobileLaunchRouting",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "resolveClientAssetMode",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "resolveClientBootstrapDebugEnabled",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "resolveMobileConfig",
+              "kind": "function",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./client",
+          "target": "client/index.js",
+          "exports": [
+            {
+              "name": "bootstrapClientShellApp",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "createAsyncModuleRecoveryState",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createComponentInteractionEmitter",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createShellRouter",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "dismissAsyncModuleRecovery",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "dynamicImportErrorMessage",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "getClientAppConfig",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "guardedReloadApp",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "installAsyncModuleRecoveryHandlers",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "isDynamicImportError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeIncomingAppUrl",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "notifyAsyncModuleLoadError",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "registerMobileLaunchRouting",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveClientAssetMode",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveClientBootstrapDebugEnabled",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveMobileConfig",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/asyncModuleRecovery",
+          "target": "client/asyncModuleRecovery.d.ts",
+          "exports": [
+            {
+              "name": "AsyncModuleRecoveryState",
+              "kind": "type",
+              "role": "component_or_class"
+            },
+            {
+              "name": "createAsyncModuleRecoveryState",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "dismissAsyncModuleRecovery",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "dynamicImportErrorMessage",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "guardedReloadApp",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "installAsyncModuleRecoveryHandlers",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "isDynamicImportError",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "notifyAsyncModuleLoadError",
+              "kind": "function",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/asyncModuleRecovery",
+          "target": "client/asyncModuleRecovery.js",
+          "exports": [
+            {
+              "name": "createAsyncModuleRecoveryState",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "dismissAsyncModuleRecovery",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "dynamicImportErrorMessage",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "guardedReloadApp",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "installAsyncModuleRecoveryHandlers",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "isDynamicImportError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "notifyAsyncModuleLoadError",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/moduleBootstrap",
+          "target": "client/moduleBootstrap.js",
+          "exports": [
+            {
+              "name": "bootClientModules",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/pageRedirects",
+          "target": "client/pageRedirects.d.ts",
+          "exports": [
+            {
+              "name": "redirectToChild",
+              "kind": "function",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/pageRedirects",
+          "target": "client/pageRedirects.js",
+          "exports": [
+            {
+              "name": "redirectToChild",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/vite",
+          "target": "client/vite/index.js",
+          "exports": [
+            {
+              "name": "createJskitClientBootstrapPlugin",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/actions",
+          "target": "server/actions/index.js",
+          "exports": [
+            {
+              "name": "ActionRuntimeServiceProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "registerActionContextContributor",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveActionContextContributors",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveActionContributors",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/http",
+          "target": "server/http/index.js",
+          "exports": [
+            {
+              "name": "registerRouteVisibilityResolver",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/platform",
+          "target": "server/platform/index.js",
+          "exports": [
+            {
+              "name": "registerSurfaceRequestConstraint",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveRuntimeProfileFromSurface",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "tryCreateProviderRuntimeFromApp",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/registries",
+          "target": "server/registries/index.js",
+          "exports": [
+            {
+              "name": "assertTaggableApp",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createDomainEvents",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "ensureActionSurfaceSourceRegistry",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "installServiceRegistrationApi",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "materializeServiceRegistration",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "normalizeNestedEntries",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeServiceRegistration",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "registerBootstrapPayloadContributor",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "registerDomainEventListener",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "registerRouteVisibilityResolver",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "registerServiceRegistration",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "registerTaggedSingleton",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveActionSurfaceSourceIds",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveBootstrapPayload",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveBootstrapPayloadContributors",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveDomainEventListeners",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveRouteVisibilityContext",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveRouteVisibilityResolvers",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveServiceRegistrations",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveTaggedEntries",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/runtime",
+          "target": "server/runtime/index.js",
+          "exports": [
+            {
+              "name": "AppError",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "createValidationError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "installServiceRegistrationApi",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "parsePositiveInteger",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "registerBootstrapPayloadContributor",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "registerDomainEventListener",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "requireAuth",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveServiceRegistrations",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/runtime/entityChangeEvents",
+          "target": "server/runtime/entityChangeEvents.js",
+          "exports": [
+            {
+              "name": "createEntityChangePublisher",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createNoopEntityChangePublisher",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createRealtimeEntityChangePublisher",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveDefaultScope",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/runtime/errors",
+          "target": "server/runtime/errors.js",
+          "exports": [
+            {
+              "name": "AppError",
+              "kind": "class",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ConflictError",
+              "kind": "class",
+              "role": "component_or_class"
+            },
+            {
+              "name": "createValidationError",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "DomainError",
+              "kind": "class",
+              "role": "component_or_class"
+            },
+            {
+              "name": "DomainValidationError",
+              "kind": "class",
+              "role": "component_or_class"
+            },
+            {
+              "name": "isAppError",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "isDomainError",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "NotFoundError",
+              "kind": "class",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/runtime/requestUrl",
+          "target": "server/runtime/requestUrl.js",
+          "exports": [
+            {
+              "name": "resolveClientIpAddress",
+              "kind": "function",
+              "role": "helper"
+            },
+            {
+              "name": "safePathnameFromRequest",
+              "kind": "function",
+              "role": "export"
+            },
+            {
+              "name": "safeRequestUrl",
+              "kind": "function",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/support",
+          "target": "server/support/index.js",
+          "exports": [
+            {
+              "name": "DEFAULT_PAGE_LINK_COMPONENT_TOKEN",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "DEFAULT_SUBPAGE_LINK_COMPONENT_TOKEN",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "deriveDefaultSubpagesHost",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "discoverPlacementTopologyFromApp",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "discoverShellOutletSourcePathsFromApp",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "discoverShellOutletTargetsFromApp",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "importFreshModuleFromAbsolutePath",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "listSurfacePageRoots",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "loadAppConfigFromAppRoot",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "loadAppConfigFromModuleUrl",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePagesRelativeTargetFile",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePagesRelativeTargetRoot",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveAppConfig",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveBestSurfaceMatchFromPageFile",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveClientAssetMode",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveMobileCallbackUrls",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveMobileConfig",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveNearestParentSubpagesHost",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolvePageLinkTargetDetails",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolvePageTargetDetails",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveRequiredAppRoot",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveSemanticPlacementTargetFromApp",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveShellOutletPlacementTargetFromApp",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "symlinkSafeRequire",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "toPosixPath",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared",
+          "target": "shared/index.js",
+          "exports": [
+            {
+              "name": "normalizePathname",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveLinkPath",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/actions",
+          "target": "shared/actions/index.js",
+          "exports": [
+            {
+              "name": "normalizeActionDefinition",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "withActionDefaults",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/actions/actionContributorHelpers",
+          "target": "shared/actions/actionContributorHelpers.js",
+          "exports": [
+            {
+              "name": "emptyInputValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "hasPermission",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeObject",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "requireServiceMethod",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveRequest",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "toPositiveInteger",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/actions/textNormalization",
+          "target": "shared/actions/textNormalization.js",
+          "exports": [
+            {
+              "name": "normalizeLowerText",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeText",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support",
+          "target": "shared/support/index.js",
+          "exports": [
+            {
+              "name": "appendQueryString",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "formatDateTime",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "hasPermission",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isRecord",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isTransientQueryError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePermissionList",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeReturnToPath",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "pickOwnProperties",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveAllowedOriginsFromPlacementContext",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "shouldRetryTransientQueryFailure",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "splitPathQueryAndHash",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "toCamelCase",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "toSnakeCase",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "transientQueryRetryDelay",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/crudFieldContract",
+          "target": "shared/support/crudFieldContract.js",
+          "exports": [
+            {
+              "name": "buildCrudFieldContractMap",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "buildCrudOperationSchemaFields",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "checkCrudLookupFormControl",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "CRUD_FIELD_STORAGE_COLUMN",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_FIELD_STORAGE_VIRTUAL",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_FIELD_WRITE_SERIALIZER_DATETIME_UTC",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LOOKUP_FORM_CONTROL_AUTOCOMPLETE",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LOOKUP_FORM_CONTROL_SELECT",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "normalizeCrudFieldStorageConfig",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudFieldContractEntry",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudFieldSchemaProperties",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/crudListFilters",
+          "target": "shared/support/crudListFilters.js",
+          "exports": [
+            {
+              "name": "areCrudListFilterUiValuesEqual",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "createCrudListFilterInitialValue",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_INVALID_VALUES_DISCARD",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_INVALID_VALUES_REJECT",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_PRESENCE_MISSING",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_PRESENCE_OPTIONS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_PRESENCE_PRESENT",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_TYPE_DATE",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_TYPE_DATE_RANGE",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_TYPE_ENUM",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_TYPE_ENUM_MANY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_TYPE_FLAG",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_TYPE_NUMBER_RANGE",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_TYPE_PRESENCE",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_TYPE_RECORD_ID",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_TYPE_RECORD_ID_MANY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "CRUD_LIST_FILTER_TYPES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "defineCrudListFilters",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "formatCrudListFilterDefaultChipLabel",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "formatCrudListFilterQueryValue",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "formatCrudListRangeQueryExpression",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "hasCrudListFilterUiValue",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "INVALID_CRUD_LIST_FILTER_QUERY_VALUE",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "isCrudListFilterMultiValue",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isCrudListFilterStructuredValue",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "listCrudListFilterChipValues",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeCrudListFilterInvalidValues",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeCrudListFilterUiValue",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "parseCrudListFilterQueryValue",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "parseCrudListRangeQueryExpression",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudListFilterOptionLabel",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudListFilterQueryKeys",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/crudLookup",
+          "target": "shared/support/crudLookup.js",
+          "exports": [
+            {
+              "name": "DEFAULT_CRUD_LOOKUP_CONTAINER_KEY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "normalizeCrudLookupApiPath",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeCrudLookupContainerKey",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeCrudLookupNamespace",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudLookupApiPathFromNamespace",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudLookupContainerKey",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudLookupFieldKeyFromRouteParam",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudLookupFieldKeys",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudParentFilterFieldKeyFromRouteParam",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudParentFilterKeys",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveCrudResourceScopeName",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/deepFreeze",
+          "target": "shared/support/deepFreeze.js",
+          "exports": [
+            {
+              "name": "deepFreeze",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/generatedUiContract",
+          "target": "shared/support/generatedUiContract.js",
+          "exports": [
+            {
+              "name": "assertGeneratedUiSourceContract",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "buildGeneratedUiScreenClassName",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "collectGeneratedUiSourceContractIssues",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "GENERATED_UI_FORBIDDEN_CARD_SHELL_PATTERNS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "GENERATED_UI_FORBIDDEN_LIVE_COPY_PATTERNS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "GENERATED_UI_NAVIGATION_ROLE_DEFAULT",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "GENERATED_UI_NAVIGATION_ROLE_LINK_PLACEMENTS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "GENERATED_UI_NAVIGATION_ROLE_OPTION",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "GENERATED_UI_NAVIGATION_ROLE_VALUES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "GENERATED_UI_NO_LINK_NAVIGATION_ROLES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "GENERATED_UI_SOURCE_CONTRACT_PROFILES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "GENERATED_UI_SURFACE_PROFILES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "inferGeneratedUiNavigationRole",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "isGeneratedUiNoLinkNavigationRole",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeGeneratedUiNavigationRole",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveGeneratedUiNavigationRoleLinkPlacement",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveGeneratedUiSurfaceProfile",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "shouldCreateGeneratedUiNavigationLink",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/linkPath",
+          "target": "shared/support/linkPath.js",
+          "exports": [
+            {
+              "name": "isExternalLinkTarget",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveLinkPath",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "splitPathQueryHash",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/listenerSet",
+          "target": "shared/support/listenerSet.js",
+          "exports": [
+            {
+              "name": "createListenerSubscription",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "subscribeListener",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/normalize",
+          "target": "shared/support/normalize.js",
+          "exports": [
+            {
+              "name": "ensureNonEmptyText",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "hasValue",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "isRecord",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeArray",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeBoolean",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeCanonicalRecordIdText",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeFiniteInteger",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeFiniteNumber",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeIfInSource",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeIfPresent",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeInteger",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeLowerText",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeMobileAssetMode",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeMobileCallbackPath",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeMobileConfig",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeMobileStrategy",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeObject",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeOneOf",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeOpaqueId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeOrNull",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePositiveInteger",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeQueryToken",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeRecordId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeText",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeUniqueTextList",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/permissions",
+          "target": "shared/support/permissions.js",
+          "exports": [
+            {
+              "name": "hasPermission",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePermissionList",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/providerLogger",
+          "target": "shared/support/providerLogger.js",
+          "exports": [
+            {
+              "name": "createProviderLogger",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/returnToPath",
+          "target": "shared/support/returnToPath.js",
+          "exports": [
+            {
+              "name": "normalizeAllowedOrigins",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeHttpOrigin",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeReturnToPath",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveAllowedOriginsFromPlacementContext",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveAllowedOriginsFromSurfaceDefinitions",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/shellLayoutTargets",
+          "target": "shared/support/shellLayoutTargets.js",
+          "exports": [
+            {
+              "name": "describeShellOutletTargets",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "discoverShellOutletTargetsFromVueSource",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "findShellOutletTargetById",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "normalizePlacementKind",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePlacementLayoutClass",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePlacementOwnerId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePlacementSurfaceId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePlacementSurfaces",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePlacementTopologyDefinition",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePlacementTopologyEntry",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizePlacementTopologyVariant",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeSemanticPlacementId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeShellOutletTargetId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeShellOutletTargetRecord",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "PLACEMENT_LAYOUT_CLASSES",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "resolvePlacementTargetReference",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveShellOutletTargetParts",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/stringCase",
+          "target": "shared/support/stringCase.js",
+          "exports": [
+            {
+              "name": "toCamelCase",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "toSnakeCase",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/tokens",
+          "target": "shared/support/tokens.js",
+          "exports": [
+            {
+              "name": "isContainerToken",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/support/visibility",
+          "target": "shared/support/visibility.js",
+          "exports": [
+            {
+              "name": "checkRouteVisibility",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "isWorkspaceRouteVisibility",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeRouteVisibility",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeRouteVisibilityToken",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeVisibilityContext",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "ROUTE_VISIBILITY_LEVELS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ROUTE_VISIBILITY_PUBLIC",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ROUTE_VISIBILITY_TOKENS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ROUTE_VISIBILITY_USER",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ROUTE_VISIBILITY_WORKSPACE",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ROUTE_VISIBILITY_WORKSPACE_USER",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/surface",
+          "target": "shared/surface/index.js",
+          "exports": [
+            {
+              "name": "createSurfacePathHelpers",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "deriveSurfaceRouteBaseFromPagesRoot",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "normalizeSurfaceId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeSurfacePagesRoot",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveScopedApiBasePath",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveScopedRouteBase",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/surface/paths",
+          "target": "shared/surface/paths.js",
+          "exports": [
+            {
+              "name": "createSurfacePathHelpers",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "matchesPathPrefix",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "normalizePathname",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/surface/registry",
+          "target": "shared/surface/registry.js",
+          "exports": [
+            {
+              "name": "createSurfaceRegistry",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "deriveSurfaceRouteBaseFromPagesRoot",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "normalizeSurfaceId",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeSurfacePagesRoot",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/surface/runtime",
+          "target": "shared/surface/runtime.js",
+          "exports": [
+            {
+              "name": "createSurfaceRuntime",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "filterRoutesBySurface",
+              "kind": "export",
+              "role": "export"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/validators",
+          "target": "shared/validators/index.js",
+          "exports": [
+            {
+              "name": "buildSchemaValidationError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "composeSchemaDefinitions",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "createCursorListValidator",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "createSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "cursorPaginationQueryValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "deriveRequiredFieldsFromSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "deriveResourceRequiredMetadata",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "executeJsonRestSchemaDefinition",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "hasJsonRestSchemaDefinition",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "HTML_TIME_STRING_SCHEMA",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "mergeObjectSchemas",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "normalizeObjectInput",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeRequiredFieldList",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeSchemaDefinition",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "normalizeSingleSchemaDefinition",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "NULLABLE_HTML_TIME_STRING_SCHEMA",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "nullableRecordIdInputSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "nullableRecordIdSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "RECORD_ID_PATTERN",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "recordIdInputSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "recordIdParamsValidator",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "recordIdSchema",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveSchemaTransportSchemaDefinition",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveStructuredSchemaTransportSchema",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "validateSchemaPayload",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./shared/validators/inputNormalization",
+          "target": "shared/validators/inputNormalization.js",
+          "exports": [
+            {
+              "name": "normalizeObjectInput",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "@jskit-ai/shell-web",
+      "version": "0.1.113",
+      "fingerprint": "ef9491b1b68cf23d764a9623249fd08a3463d395f272cd007ad9ac6f1e455f2f",
+      "installed": true,
+      "exports": [
+        {
+          "subpath": "./client",
+          "target": "src/client/index.js",
+          "exports": [
+            {
+              "name": "BOOTSTRAP_PAYLOAD_HANDLER_TAG",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "clientProviders",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "isRecoverableRequestError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "registerBootstrapPayloadHandler",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "requestRecoveryMessage",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveBootstrapPayloadHandlers",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "SHELL_ASYNC_MODULE_RECOVERY_RUNTIME_KEY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "SHELL_REQUEST_RECOVERY_RUNTIME_KEY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ShellErrorHost",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ShellLayout",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ShellMenuLinkItem",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ShellOutlet",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ShellOutletMenuWidget",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ShellRouteTransition",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ShellSurfaceAwareMenuLinkItem",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ShellTabLinkItem",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "ShellWebClientProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "useShellAsyncModuleRecoveryRuntime",
+              "kind": "export",
+              "role": "composable"
+            },
+            {
+              "name": "useShellErrorPresentationStore",
+              "kind": "export",
+              "role": "composable"
+            },
+            {
+              "name": "useShellLayoutState",
+              "kind": "export",
+              "role": "composable"
+            },
+            {
+              "name": "useShellLayoutStore",
+              "kind": "export",
+              "role": "composable"
+            },
+            {
+              "name": "useShellRequestRecoveryRuntime",
+              "kind": "export",
+              "role": "composable"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/asyncModuleRecovery",
+          "target": "src/client/asyncModuleRecovery/index.js",
+          "exports": [
+            {
+              "name": "SHELL_ASYNC_MODULE_RECOVERY_RUNTIME_KEY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "useShellAsyncModuleRecoveryRuntime",
+              "kind": "export",
+              "role": "composable"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/bootstrap",
+          "target": "src/client/bootstrap/index.js",
+          "exports": [
+            {
+              "name": "BOOTSTRAP_PAYLOAD_HANDLER_TAG",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "registerBootstrapPayloadHandler",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "resolveBootstrapErrorStatusCode",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveBootstrapPayloadHandlers",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/components/ShellErrorHost",
+          "target": "src/client/components/ShellErrorHost.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/components/ShellLayout",
+          "target": "src/client/components/ShellLayout.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/components/ShellMenuLinkItem",
+          "target": "src/client/components/ShellMenuLinkItem.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/components/ShellOutlet",
+          "target": "src/client/components/ShellOutlet.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/components/ShellOutletMenuWidget",
+          "target": "src/client/components/ShellOutletMenuWidget.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/components/ShellRouteTransition",
+          "target": "src/client/components/ShellRouteTransition.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/components/ShellSurfaceAwareMenuLinkItem",
+          "target": "src/client/components/ShellSurfaceAwareMenuLinkItem.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/components/ShellTabLinkItem",
+          "target": "src/client/components/ShellTabLinkItem.vue",
+          "exports": [
+            {
+              "name": "default",
+              "kind": "default",
+              "role": "default"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/composables/useShellLayoutState",
+          "target": "src/client/composables/useShellLayoutState.js",
+          "exports": [
+            {
+              "name": "useShellLayoutState",
+              "kind": "export",
+              "role": "composable"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/error",
+          "target": "src/client/error/index.js",
+          "exports": [
+            {
+              "name": "createDefaultErrorPolicy",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "useShellErrorPresentationStore",
+              "kind": "export",
+              "role": "composable"
+            },
+            {
+              "name": "useShellWebErrorRuntime",
+              "kind": "export",
+              "role": "composable"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/navigation/linkResolver",
+          "target": "src/client/navigation/linkResolver.js",
+          "exports": [
+            {
+              "name": "resolveShellLinkPath",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "useShellLinkResolver",
+              "kind": "export",
+              "role": "composable"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/placement",
+          "target": "src/client/placement/index.js",
+          "exports": [
+            {
+              "name": "createPlacementRegistry",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "definePlacement",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "definePlacementTopology",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "joinSurfacePath",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "normalizeSurfaceOrigin",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "readPlacementSurfaceConfig",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveRuntimePathname",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveSurfaceDefinitionFromPlacementContext",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveSurfaceIdFromPlacementPathname",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveSurfaceNavigationTargetFromPlacementContext",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveSurfacePathFromPlacementContext",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveSurfaceRootPathFromPlacementContext",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "useWebPlacementContext",
+              "kind": "export",
+              "role": "composable"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/providers/ShellWebClientProvider",
+          "target": "src/client/providers/ShellWebClientProvider.js",
+          "exports": [
+            {
+              "name": "resolveAppPlacementTopologyExport",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "ShellWebClientProvider",
+              "kind": "export",
+              "role": "component_or_class"
+            }
+          ]
+        },
+        {
+          "subpath": "./client/requestRecovery",
+          "target": "src/client/requestRecovery/index.js",
+          "exports": [
+            {
+              "name": "isRecoverableRequestError",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "requestRecoveryMessage",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "SHELL_REQUEST_RECOVERY_RUNTIME_KEY",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "useShellRequestRecoveryRuntime",
+              "kind": "export",
+              "role": "composable"
+            }
+          ]
+        },
+        {
+          "subpath": "./server/support/localLinkItemScaffolds",
+          "target": "src/server/support/localLinkItemScaffolds.js",
+          "exports": [
+            {
+              "name": "findLocalLinkItemDefinition",
+              "kind": "export",
+              "role": "export"
+            },
+            {
+              "name": "LOCAL_LINK_ITEM_COMPONENT_DEFINITIONS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "LOCAL_LINK_ITEM_COMPONENT_TOKENS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "readLocalLinkItemComponentSource",
+              "kind": "export",
+              "role": "helper"
+            },
+            {
+              "name": "resolveLocalLinkItemTemplateAbsolutePath",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        },
+        {
+          "subpath": "./test/adaptiveShellSmoke",
+          "target": "src/test/adaptiveShellSmoke.js",
+          "exports": [
+            {
+              "name": "DEFAULT_VIEWPORTS",
+              "kind": "export",
+              "role": "component_or_class"
+            },
+            {
+              "name": "runAdaptiveShellSmoke",
+              "kind": "export",
+              "role": "helper"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

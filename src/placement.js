@@ -90,3 +90,15 @@ addPlacement({
   },
   when: ({ auth }) => auth?.authenticated === true
 });
+addPlacement({
+  id: "shell-web.home.profile-menu.preferences",
+  target: "auth.profile-menu",
+  kind: "link",
+  surfaces: ["*"],
+  order: 500,
+  props: {
+    label: "User preferences",
+    to: "/home/settings/general"
+  },
+  when: ({ auth }) => auth?.authenticated === true
+});

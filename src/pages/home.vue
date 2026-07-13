@@ -1,6 +1,9 @@
 <route lang="json">
 {
   "meta": {
+    "guard": {
+      "policy": "authenticated"
+    },
     "jskit": {
       "surface": "home"
     }

@@ -22,10 +22,14 @@
           "scripts": {}
         },
         "text": {},
-        "files": []
+        "source": {},
+        "vite": {},
+        "files": [],
+        "migrations": []
       },
       "options": {},
-      "installedAt": "1970-01-01T00:00:00.000Z"
+      "installedAt": "1970-01-01T00:00:00.000Z",
+      "migrationSyncVersion": "0.1.0"
     },
     "@jskit-ai/shell-web": {
       "packageId": "@jskit-ai/shell-web",
@@ -232,7 +236,7 @@
       },
       "options": {},
       "installedAt": "2026-07-13T11:22:01.735Z",
-      "migrationSyncVersion": "0.1.113"
+      "migrationSyncVersion": "0.1.116"
     },
     "@jskit-ai/auth-core": {
       "packageId": "@jskit-ai/auth-core",
@@ -276,7 +280,7 @@
       },
       "options": {},
       "installedAt": "2026-07-13T11:22:01.732Z",
-      "migrationSyncVersion": "0.1.112"
+      "migrationSyncVersion": "0.1.115"
     },
     "@jskit-ai/http-runtime": {
       "packageId": "@jskit-ai/http-runtime",
@@ -299,7 +303,7 @@
       },
       "options": {},
       "installedAt": "2026-07-13T11:22:01.734Z",
-      "migrationSyncVersion": "0.1.112"
+      "migrationSyncVersion": "0.1.116"
     },
     "@jskit-ai/auth-web": {
       "packageId": "@jskit-ai/auth-web",
@@ -433,7 +437,7 @@
       },
       "options": {},
       "installedAt": "2026-07-13T11:22:03.544Z",
-      "migrationSyncVersion": "0.1.114"
+      "migrationSyncVersion": "0.1.117"
     },
     "@jskit-ai/auth-provider-local-core": {
       "packageId": "@jskit-ai/auth-provider-local-core",
@@ -504,7 +508,7 @@
       },
       "options": {},
       "installedAt": "2026-07-13T11:22:05.335Z",
-      "migrationSyncVersion": "0.1.13"
+      "migrationSyncVersion": "0.1.16"
     }
   }
 }

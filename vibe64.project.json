@@ -13,6 +13,10 @@
       "command": [".vibe64/bin/preview-identity"],
       "identityTypes": ["email", "user-id"],
       "viewerIdentityTypes": ["email"],
+      "environment": {
+        "enabled": "AUTH_DEV_BYPASS_ENABLED",
+        "secret": "AUTH_DEV_BYPASS_SECRET"
+      },
       "runtimes": ["node26"]
     }
   }

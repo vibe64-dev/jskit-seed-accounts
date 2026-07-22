@@ -33,20 +33,15 @@
     },
     "@jskit-ai/shell-web": {
       "packageId": "@jskit-ai/shell-web",
-      "version": "0.1.129",
+      "version": "0.1.130",
       "source": {
-        "type": "catalog",
-        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/shell-web"
+        "type": "npm-installed-package",
+        "packagePath": "node_modules/@jskit-ai/shell-web",
+        "descriptorPath": "node_modules/@jskit-ai/shell-web/package.descriptor.mjs"
       },
       "managed": {
         "packageJson": {
-          "dependencies": {
-            "@jskit-ai/shell-web": {
-              "hadPrevious": true,
-              "previousValue": "0.1.129",
-              "value": "0.x"
-            }
-          },
+          "dependencies": {},
           "devDependencies": {},
           "scripts": {}
         },
@@ -245,7 +240,7 @@
             "ownership": "app",
             "hash": "e5ebd81b0b58ea445a2ace51e8ad32f00eadb0b84aa355450d4fc12e57ce1842",
             "hadPrevious": true,
-            "previousContentBase64": "aW1wb3J0IHsgZXhwZWN0LCB0ZXN0IH0gZnJvbSAiQHBsYXl3cmlnaHQvdGVzdCI7CmltcG9ydCB7IHJ1bkFkYXB0aXZlU2hlbGxTbW9rZSB9IGZyb20gIkBqc2tpdC1haS9zaGVsbC13ZWIvdGVzdC9hZGFwdGl2ZVNoZWxsU21va2UiOwoKcnVuQWRhcHRpdmVTaGVsbFNtb2tlKHsgdGVzdCwgZXhwZWN0IH0pOwo=",
+            "previousContentBase64": "aW1wb3J0IHsgZXhwZWN0LCB0ZXN0IH0gZnJvbSAiQHBsYXl3cmlnaHQvdGVzdCI7CmltcG9ydCB7IERFRkFVTFRfVklFV1BPUlRTLCBydW5BZGFwdGl2ZVNoZWxsU21va2VDYXNlIH0gZnJvbSAiQGpza2l0LWFpL3NoZWxsLXdlYi90ZXN0L2FkYXB0aXZlU2hlbGxTbW9rZSI7Cgp0ZXN0LmRlc2NyaWJlKCJnZW5lcmF0ZWQgYWRhcHRpdmUgc2hlbGwgc21va2UiLCAoKSA9PiB7CiAgZm9yIChjb25zdCB2aWV3cG9ydCBvZiBERUZBVUxUX1ZJRVdQT1JUUykgewogICAgdGVzdChgJHt2aWV3cG9ydC5uYW1lfSBsYXlvdXQgaGFzIHJlYWNoYWJsZSBuYXZpZ2F0aW9uIGFuZCBubyBob3Jpem9udGFsIG92ZXJmbG93YCwgYXN5bmMgKHsgcGFnZSB9KSA9PiB7CiAgICAgIGF3YWl0IHJ1bkFkYXB0aXZlU2hlbGxTbW9rZUNhc2UoeyBwYWdlLCBleHBlY3QsIHZpZXdwb3J0IH0pOwogICAgfSk7CiAgfQp9KTsK",
             "preserveOnRemove": false,
             "reason": "Install compact/medium/expanded Playwright smoke coverage for the adaptive shell.",
             "category": "shell-web",
@@ -255,12 +250,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T18:27:19.658Z",
-      "migrationSyncVersion": "0.1.129"
+      "installedAt": "2026-07-22T22:17:45.496Z",
+      "migrationSyncVersion": "0.1.130"
     },
     "@jskit-ai/auth-core": {
       "packageId": "@jskit-ai/auth-core",
-      "version": "0.1.125",
+      "version": "0.1.126",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-core",
@@ -268,18 +263,7 @@
       },
       "managed": {
         "packageJson": {
-          "dependencies": {
-            "@jskit-ai/kernel": {
-              "hadPrevious": true,
-              "previousValue": "0.1.128",
-              "value": "0.x"
-            },
-            "@jskit-ai/auth-core": {
-              "hadPrevious": true,
-              "previousValue": "0.1.125",
-              "value": "0.x"
-            }
-          },
+          "dependencies": {},
           "devDependencies": {},
           "scripts": {}
         },
@@ -290,25 +274,20 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T18:27:16.499Z",
-      "migrationSyncVersion": "0.1.125"
+      "installedAt": "2026-07-22T22:17:51.543Z",
+      "migrationSyncVersion": "0.1.126"
     },
     "@jskit-ai/http-runtime": {
       "packageId": "@jskit-ai/http-runtime",
-      "version": "0.1.126",
+      "version": "0.1.127",
       "source": {
-        "type": "catalog",
-        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/http-runtime"
+        "type": "npm-installed-package",
+        "packagePath": "node_modules/@jskit-ai/http-runtime",
+        "descriptorPath": "node_modules/@jskit-ai/http-runtime/package.descriptor.mjs"
       },
       "managed": {
         "packageJson": {
-          "dependencies": {
-            "@jskit-ai/http-runtime": {
-              "hadPrevious": true,
-              "previousValue": "0.1.126",
-              "value": "0.x"
-            }
-          },
+          "dependencies": {},
           "devDependencies": {},
           "scripts": {}
         },
@@ -319,12 +298,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T18:27:19.651Z",
-      "migrationSyncVersion": "0.1.126"
+      "installedAt": "2026-07-22T22:17:55.681Z",
+      "migrationSyncVersion": "0.1.127"
     },
     "@jskit-ai/auth-web": {
       "packageId": "@jskit-ai/auth-web",
-      "version": "0.1.128",
+      "version": "0.1.129",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-web",
@@ -332,13 +311,7 @@
       },
       "managed": {
         "packageJson": {
-          "dependencies": {
-            "@jskit-ai/auth-web": {
-              "hadPrevious": true,
-              "previousValue": "0.1.128",
-              "value": "0.x"
-            }
-          },
+          "dependencies": {},
           "devDependencies": {},
           "scripts": {}
         },
@@ -416,12 +389,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T18:27:19.841Z",
-      "migrationSyncVersion": "0.1.128"
+      "installedAt": "2026-07-22T22:17:58.966Z",
+      "migrationSyncVersion": "0.1.129"
     },
     "@jskit-ai/auth-provider-local-core": {
       "packageId": "@jskit-ai/auth-provider-local-core",
-      "version": "0.1.29",
+      "version": "0.1.30",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-provider-local-core",
@@ -429,13 +402,7 @@
       },
       "managed": {
         "packageJson": {
-          "dependencies": {
-            "@jskit-ai/auth-provider-local-core": {
-              "hadPrevious": true,
-              "previousValue": "0.1.29",
-              "value": "0.x"
-            }
-          },
+          "dependencies": {},
           "devDependencies": {},
           "scripts": {}
         },
@@ -469,8 +436,8 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T18:27:17.870Z",
-      "migrationSyncVersion": "0.1.29"
+      "installedAt": "2026-07-22T22:18:02.169Z",
+      "migrationSyncVersion": "0.1.30"
     }
   },
   "managed": {

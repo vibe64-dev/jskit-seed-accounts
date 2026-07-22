@@ -33,7 +33,7 @@
     },
     "@jskit-ai/shell-web": {
       "packageId": "@jskit-ai/shell-web",
-      "version": "0.1.128",
+      "version": "0.1.129",
       "source": {
         "type": "catalog",
         "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/shell-web"
@@ -43,7 +43,7 @@
           "dependencies": {
             "@jskit-ai/shell-web": {
               "hadPrevious": true,
-              "previousValue": "0.1.128",
+              "previousValue": "0.1.129",
               "value": "0.x"
             }
           },
@@ -243,7 +243,7 @@
           {
             "path": "tests/e2e/adaptive-shell.spec.ts",
             "ownership": "app",
-            "hash": "456cbb65ebd0b97052e4e171bf87081e89b293fe67b9250af2cf876969d4eafd",
+            "hash": "e5ebd81b0b58ea445a2ace51e8ad32f00eadb0b84aa355450d4fc12e57ce1842",
             "hadPrevious": true,
             "previousContentBase64": "aW1wb3J0IHsgZXhwZWN0LCB0ZXN0IH0gZnJvbSAiQHBsYXl3cmlnaHQvdGVzdCI7CmltcG9ydCB7IHJ1bkFkYXB0aXZlU2hlbGxTbW9rZSB9IGZyb20gIkBqc2tpdC1haS9zaGVsbC13ZWIvdGVzdC9hZGFwdGl2ZVNoZWxsU21va2UiOwoKcnVuQWRhcHRpdmVTaGVsbFNtb2tlKHsgdGVzdCwgZXhwZWN0IH0pOwo=",
             "preserveOnRemove": false,
@@ -255,12 +255,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T16:54:22.807Z",
-      "migrationSyncVersion": "0.1.128"
+      "installedAt": "2026-07-22T18:27:19.658Z",
+      "migrationSyncVersion": "0.1.129"
     },
     "@jskit-ai/auth-core": {
       "packageId": "@jskit-ai/auth-core",
-      "version": "0.1.124",
+      "version": "0.1.125",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-core",
@@ -271,39 +271,10 @@
           "dependencies": {
             "@jskit-ai/kernel": {
               "hadPrevious": true,
-              "previousValue": "0.1.127",
+              "previousValue": "0.1.128",
               "value": "0.x"
             },
             "@jskit-ai/auth-core": {
-              "hadPrevious": true,
-              "previousValue": "0.1.124",
-              "value": "0.x"
-            }
-          },
-          "devDependencies": {},
-          "scripts": {}
-        },
-        "text": {},
-        "source": {},
-        "vite": {},
-        "files": [],
-        "migrations": []
-      },
-      "options": {},
-      "installedAt": "2026-07-22T16:54:05.334Z",
-      "migrationSyncVersion": "0.1.124"
-    },
-    "@jskit-ai/http-runtime": {
-      "packageId": "@jskit-ai/http-runtime",
-      "version": "0.1.125",
-      "source": {
-        "type": "catalog",
-        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/http-runtime"
-      },
-      "managed": {
-        "packageJson": {
-          "dependencies": {
-            "@jskit-ai/http-runtime": {
               "hadPrevious": true,
               "previousValue": "0.1.125",
               "value": "0.x"
@@ -319,12 +290,41 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T16:54:22.784Z",
+      "installedAt": "2026-07-22T18:27:16.499Z",
       "migrationSyncVersion": "0.1.125"
+    },
+    "@jskit-ai/http-runtime": {
+      "packageId": "@jskit-ai/http-runtime",
+      "version": "0.1.126",
+      "source": {
+        "type": "catalog",
+        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/http-runtime"
+      },
+      "managed": {
+        "packageJson": {
+          "dependencies": {
+            "@jskit-ai/http-runtime": {
+              "hadPrevious": true,
+              "previousValue": "0.1.126",
+              "value": "0.x"
+            }
+          },
+          "devDependencies": {},
+          "scripts": {}
+        },
+        "text": {},
+        "source": {},
+        "vite": {},
+        "files": [],
+        "migrations": []
+      },
+      "options": {},
+      "installedAt": "2026-07-22T18:27:19.651Z",
+      "migrationSyncVersion": "0.1.126"
     },
     "@jskit-ai/auth-web": {
       "packageId": "@jskit-ai/auth-web",
-      "version": "0.1.127",
+      "version": "0.1.128",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-web",
@@ -335,7 +335,7 @@
           "dependencies": {
             "@jskit-ai/auth-web": {
               "hadPrevious": true,
-              "previousValue": "0.1.127",
+              "previousValue": "0.1.128",
               "value": "0.x"
             }
           },
@@ -416,12 +416,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T16:54:24.238Z",
-      "migrationSyncVersion": "0.1.127"
+      "installedAt": "2026-07-22T18:27:19.841Z",
+      "migrationSyncVersion": "0.1.128"
     },
     "@jskit-ai/auth-provider-local-core": {
       "packageId": "@jskit-ai/auth-provider-local-core",
-      "version": "0.1.28",
+      "version": "0.1.29",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-provider-local-core",
@@ -432,7 +432,7 @@
           "dependencies": {
             "@jskit-ai/auth-provider-local-core": {
               "hadPrevious": true,
-              "previousValue": "0.1.28",
+              "previousValue": "0.1.29",
               "value": "0.x"
             }
           },
@@ -469,8 +469,8 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T16:54:13.221Z",
-      "migrationSyncVersion": "0.1.28"
+      "installedAt": "2026-07-22T18:27:17.870Z",
+      "migrationSyncVersion": "0.1.29"
     }
   },
   "managed": {

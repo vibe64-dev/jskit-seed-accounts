@@ -33,7 +33,7 @@
     },
     "@jskit-ai/shell-web": {
       "packageId": "@jskit-ai/shell-web",
-      "version": "0.1.127",
+      "version": "0.1.128",
       "source": {
         "type": "catalog",
         "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/shell-web"
@@ -43,7 +43,7 @@
           "dependencies": {
             "@jskit-ai/shell-web": {
               "hadPrevious": true,
-              "previousValue": "0.1.127",
+              "previousValue": "0.1.128",
               "value": "0.x"
             }
           },
@@ -255,12 +255,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T16:32:19.581Z",
-      "migrationSyncVersion": "0.1.127"
+      "installedAt": "2026-07-22T16:54:22.807Z",
+      "migrationSyncVersion": "0.1.128"
     },
     "@jskit-ai/auth-core": {
       "packageId": "@jskit-ai/auth-core",
-      "version": "0.1.123",
+      "version": "0.1.124",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-core",
@@ -271,39 +271,10 @@
           "dependencies": {
             "@jskit-ai/kernel": {
               "hadPrevious": true,
-              "previousValue": "0.1.126",
+              "previousValue": "0.1.127",
               "value": "0.x"
             },
             "@jskit-ai/auth-core": {
-              "hadPrevious": true,
-              "previousValue": "0.1.123",
-              "value": "0.x"
-            }
-          },
-          "devDependencies": {},
-          "scripts": {}
-        },
-        "text": {},
-        "source": {},
-        "vite": {},
-        "files": [],
-        "migrations": []
-      },
-      "options": {},
-      "installedAt": "2026-07-22T16:32:17.006Z",
-      "migrationSyncVersion": "0.1.123"
-    },
-    "@jskit-ai/http-runtime": {
-      "packageId": "@jskit-ai/http-runtime",
-      "version": "0.1.124",
-      "source": {
-        "type": "catalog",
-        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/http-runtime"
-      },
-      "managed": {
-        "packageJson": {
-          "dependencies": {
-            "@jskit-ai/http-runtime": {
               "hadPrevious": true,
               "previousValue": "0.1.124",
               "value": "0.x"
@@ -319,12 +290,41 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T16:32:19.577Z",
+      "installedAt": "2026-07-22T16:54:05.334Z",
       "migrationSyncVersion": "0.1.124"
+    },
+    "@jskit-ai/http-runtime": {
+      "packageId": "@jskit-ai/http-runtime",
+      "version": "0.1.125",
+      "source": {
+        "type": "catalog",
+        "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/http-runtime"
+      },
+      "managed": {
+        "packageJson": {
+          "dependencies": {
+            "@jskit-ai/http-runtime": {
+              "hadPrevious": true,
+              "previousValue": "0.1.125",
+              "value": "0.x"
+            }
+          },
+          "devDependencies": {},
+          "scripts": {}
+        },
+        "text": {},
+        "source": {},
+        "vite": {},
+        "files": [],
+        "migrations": []
+      },
+      "options": {},
+      "installedAt": "2026-07-22T16:54:22.784Z",
+      "migrationSyncVersion": "0.1.125"
     },
     "@jskit-ai/auth-web": {
       "packageId": "@jskit-ai/auth-web",
-      "version": "0.1.126",
+      "version": "0.1.127",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-web",
@@ -335,7 +335,7 @@
           "dependencies": {
             "@jskit-ai/auth-web": {
               "hadPrevious": true,
-              "previousValue": "0.1.126",
+              "previousValue": "0.1.127",
               "value": "0.x"
             }
           },
@@ -348,7 +348,7 @@
         "files": [
           {
             "path": "src/views/auth/LoginView.vue",
-            "ownership": "package",
+            "ownership": "app",
             "hash": "e73adefd3e6e9c4188ec94c9797eb7af161da5f6d1ba3dd5502dd4cdaca1eca4",
             "hadPrevious": true,
             "previousContentBase64": "PHNjcmlwdCBzZXR1cD4KaW1wb3J0IERlZmF1bHRMb2dpblZpZXcgZnJvbSAiQGpza2l0LWFpL2F1dGgtd2ViL2NsaWVudC92aWV3cy9EZWZhdWx0TG9naW5WaWV3IjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERlZmF1bHRMb2dpblZpZXcgLz4KPC90ZW1wbGF0ZT4K",
@@ -359,7 +359,7 @@
           },
           {
             "path": "src/views/auth/SignOutView.vue",
-            "ownership": "package",
+            "ownership": "app",
             "hash": "7fa51245e90a862b25926d306fdd80849dc663c6cac1fb71f42fd54cc4d83780",
             "hadPrevious": true,
             "previousContentBase64": "PHNjcmlwdCBzZXR1cD4KaW1wb3J0IERlZmF1bHRTaWduT3V0VmlldyBmcm9tICJAanNraXQtYWkvYXV0aC13ZWIvY2xpZW50L3ZpZXdzL0RlZmF1bHRTaWduT3V0VmlldyI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEZWZhdWx0U2lnbk91dFZpZXcgLz4KPC90ZW1wbGF0ZT4K",
@@ -370,7 +370,7 @@
           },
           {
             "path": "src/views/auth/ResetPasswordView.vue",
-            "ownership": "package",
+            "ownership": "app",
             "hash": "3e62b0911364945ab07414dcc166ca653aa0718ba6f31104bb084b4e2026f85b",
             "hadPrevious": true,
             "previousContentBase64": "PHNjcmlwdCBzZXR1cD4KaW1wb3J0IERlZmF1bHRSZXNldFBhc3N3b3JkVmlldyBmcm9tICJAanNraXQtYWkvYXV0aC13ZWIvY2xpZW50L3ZpZXdzL0RlZmF1bHRSZXNldFBhc3N3b3JkVmlldyI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEZWZhdWx0UmVzZXRQYXNzd29yZFZpZXcgLz4KPC90ZW1wbGF0ZT4K",
@@ -381,7 +381,7 @@
           },
           {
             "path": "src/pages/auth/login.vue",
-            "ownership": "package",
+            "ownership": "app",
             "hash": "ca4916a3d4608f5249b8eb66bbacd13f6860274a10c5f81164ae8da38704c289",
             "hadPrevious": true,
             "previousContentBase64": "PHJvdXRlIGxhbmc9Impzb24iPgp7CiAgIm1ldGEiOiB7CiAgICAiZ3VhcmQiOiB7CiAgICAgICJwb2xpY3kiOiAicHVibGljIgogICAgfQogIH0KfQo8L3JvdXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IERlZmF1bHRMb2dpblZpZXcgZnJvbSAiQGpza2l0LWFpL2F1dGgtd2ViL2NsaWVudC92aWV3cy9EZWZhdWx0TG9naW5WaWV3IjsKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPERlZmF1bHRMb2dpblZpZXcgLz4KPC90ZW1wbGF0ZT4K",
@@ -392,7 +392,7 @@
           },
           {
             "path": "src/pages/auth/signout.vue",
-            "ownership": "package",
+            "ownership": "app",
             "hash": "0ada4fe6f41a0b2d0ed74b2e4762da46f2031534c5ee6b4d394c252ca05cd235",
             "hadPrevious": true,
             "previousContentBase64": "PHJvdXRlIGxhbmc9Impzb24iPgp7CiAgIm1ldGEiOiB7CiAgICAiZ3VhcmQiOiB7CiAgICAgICJwb2xpY3kiOiAicHVibGljIgogICAgfQogIH0KfQo8L3JvdXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IERlZmF1bHRTaWduT3V0VmlldyBmcm9tICJAanNraXQtYWkvYXV0aC13ZWIvY2xpZW50L3ZpZXdzL0RlZmF1bHRTaWduT3V0VmlldyI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEZWZhdWx0U2lnbk91dFZpZXcgLz4KPC90ZW1wbGF0ZT4K",
@@ -403,7 +403,7 @@
           },
           {
             "path": "src/pages/auth/reset-password.vue",
-            "ownership": "package",
+            "ownership": "app",
             "hash": "d40cc3f89fc0fd1ac21f645dcccf534281c86c6e6b96bc80d4fcacb0a48c375e",
             "hadPrevious": true,
             "previousContentBase64": "PHJvdXRlIGxhbmc9Impzb24iPgp7CiAgIm1ldGEiOiB7CiAgICAiZ3VhcmQiOiB7CiAgICAgICJwb2xpY3kiOiAicHVibGljIgogICAgfQogIH0KfQo8L3JvdXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IERlZmF1bHRSZXNldFBhc3N3b3JkVmlldyBmcm9tICJAanNraXQtYWkvYXV0aC13ZWIvY2xpZW50L3ZpZXdzL0RlZmF1bHRSZXNldFBhc3N3b3JkVmlldyI7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxEZWZhdWx0UmVzZXRQYXNzd29yZFZpZXcgLz4KPC90ZW1wbGF0ZT4K",
@@ -416,12 +416,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T16:32:19.684Z",
-      "migrationSyncVersion": "0.1.126"
+      "installedAt": "2026-07-22T16:54:24.238Z",
+      "migrationSyncVersion": "0.1.127"
     },
     "@jskit-ai/auth-provider-local-core": {
       "packageId": "@jskit-ai/auth-provider-local-core",
-      "version": "0.1.27",
+      "version": "0.1.28",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-provider-local-core",
@@ -432,7 +432,7 @@
           "dependencies": {
             "@jskit-ai/auth-provider-local-core": {
               "hadPrevious": true,
-              "previousValue": "0.1.27",
+              "previousValue": "0.1.28",
               "value": "0.x"
             }
           },
@@ -469,8 +469,8 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-22T16:32:18.384Z",
-      "migrationSyncVersion": "0.1.27"
+      "installedAt": "2026-07-22T16:54:13.221Z",
+      "migrationSyncVersion": "0.1.28"
     }
   },
   "managed": {

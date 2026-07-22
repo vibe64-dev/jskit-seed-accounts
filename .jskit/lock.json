@@ -33,7 +33,7 @@
     },
     "@jskit-ai/shell-web": {
       "packageId": "@jskit-ai/shell-web",
-      "version": "0.1.125",
+      "version": "0.1.127",
       "source": {
         "type": "catalog",
         "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/shell-web"
@@ -43,7 +43,7 @@
           "dependencies": {
             "@jskit-ai/shell-web": {
               "hadPrevious": true,
-              "previousValue": "0.1.125",
+              "previousValue": "0.1.127",
               "value": "0.x"
             }
           },
@@ -255,12 +255,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-20T15:18:43.214Z",
-      "migrationSyncVersion": "0.1.125"
+      "installedAt": "2026-07-22T16:32:19.581Z",
+      "migrationSyncVersion": "0.1.127"
     },
     "@jskit-ai/auth-core": {
       "packageId": "@jskit-ai/auth-core",
-      "version": "0.1.121",
+      "version": "0.1.123",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-core",
@@ -271,12 +271,12 @@
           "dependencies": {
             "@jskit-ai/kernel": {
               "hadPrevious": true,
-              "previousValue": "0.1.124",
+              "previousValue": "0.1.126",
               "value": "0.x"
             },
             "@jskit-ai/auth-core": {
               "hadPrevious": true,
-              "previousValue": "0.1.121",
+              "previousValue": "0.1.123",
               "value": "0.x"
             }
           },
@@ -290,12 +290,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-20T15:18:41.856Z",
-      "migrationSyncVersion": "0.1.121"
+      "installedAt": "2026-07-22T16:32:17.006Z",
+      "migrationSyncVersion": "0.1.123"
     },
     "@jskit-ai/http-runtime": {
       "packageId": "@jskit-ai/http-runtime",
-      "version": "0.1.122",
+      "version": "0.1.124",
       "source": {
         "type": "catalog",
         "descriptorPath": "../jskit-catalog/catalog/packages.json#@jskit-ai/http-runtime"
@@ -305,7 +305,7 @@
           "dependencies": {
             "@jskit-ai/http-runtime": {
               "hadPrevious": true,
-              "previousValue": "0.1.122",
+              "previousValue": "0.1.124",
               "value": "0.x"
             }
           },
@@ -319,12 +319,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-20T15:18:43.211Z",
-      "migrationSyncVersion": "0.1.122"
+      "installedAt": "2026-07-22T16:32:19.577Z",
+      "migrationSyncVersion": "0.1.124"
     },
     "@jskit-ai/auth-web": {
       "packageId": "@jskit-ai/auth-web",
-      "version": "0.1.124",
+      "version": "0.1.126",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-web",
@@ -335,7 +335,7 @@
           "dependencies": {
             "@jskit-ai/auth-web": {
               "hadPrevious": true,
-              "previousValue": "0.1.124",
+              "previousValue": "0.1.126",
               "value": "0.x"
             }
           },
@@ -416,12 +416,12 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-20T15:18:43.338Z",
-      "migrationSyncVersion": "0.1.124"
+      "installedAt": "2026-07-22T16:32:19.684Z",
+      "migrationSyncVersion": "0.1.126"
     },
     "@jskit-ai/auth-provider-local-core": {
       "packageId": "@jskit-ai/auth-provider-local-core",
-      "version": "0.1.25",
+      "version": "0.1.27",
       "source": {
         "type": "npm-installed-package",
         "packagePath": "node_modules/@jskit-ai/auth-provider-local-core",
@@ -432,7 +432,7 @@
           "dependencies": {
             "@jskit-ai/auth-provider-local-core": {
               "hadPrevious": true,
-              "previousValue": "0.1.25",
+              "previousValue": "0.1.27",
               "value": "0.x"
             }
           },
@@ -469,8 +469,8 @@
         "migrations": []
       },
       "options": {},
-      "installedAt": "2026-07-20T15:18:42.528Z",
-      "migrationSyncVersion": "0.1.25"
+      "installedAt": "2026-07-22T16:32:18.384Z",
+      "migrationSyncVersion": "0.1.27"
     }
   },
   "managed": {
